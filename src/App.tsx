@@ -16,6 +16,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import VSLPlayer from "./components/vsl";
 
 function App() {
   const [timeLeft, setTimeLeft] = useState({
@@ -123,7 +124,7 @@ function App() {
               alimentação saudável sem dramas, choros ou desperdício de comida
             </p>
           </div>
-
+          <VSLPlayer />
           {/* VSL Video Player */}
           <div className="relative bg-black rounded-2xl shadow-2xl mb-8 overflow-hidden">
             {!showVideo ? (
@@ -231,9 +232,9 @@ function App() {
                 E-book Completo: 100+ Receitas
               </h3>
               <p className="text-gray-600 mb-4">
-                Receitas testadas e aprovadas para crianças de 6 meses a 12 meses.
-                Inclui papinhas, finger foods, lanches saudáveis e refeições
-                completas.
+                Receitas testadas e aprovadas para crianças de 6 meses a 12
+                meses. Inclui papinhas, finger foods, lanches saudáveis e
+                refeições completas.
               </p>
             </div>
 
@@ -251,7 +252,8 @@ function App() {
                 Introdução Alimentar para Bebês de 6 a 12 meses.
               </h3>
               <p className="text-gray-600 mb-4">
-                Nunca mais fique sem ideia do que oferecer: 4 semanas de refeições pensadas para a fase de 6 a 12 meses.
+                Nunca mais fique sem ideia do que oferecer: 4 semanas de
+                refeições pensadas para a fase de 6 a 12 meses.
               </p>
             </div>
           </div>
@@ -271,7 +273,9 @@ function App() {
                 Substituições saudáveis para Bebês de 6 a 12 meses.
               </h3>
               <p className="text-gray-600 mb-4">
-                Descubra opções saudáveis para substituir alimentos comuns sem perder o valor nutricional. Ideal para variar o cardápio do bebê com segurança!
+                Descubra opções saudáveis para substituir alimentos comuns sem
+                perder o valor nutricional. Ideal para variar o cardápio do bebê
+                com segurança!
               </p>
             </div>
 
@@ -289,7 +293,8 @@ function App() {
                 Guia Essencial: Armazenamento Seguro de Alimentos para Bebês.
               </h3>
               <p className="text-gray-600 mb-4">
-                Tudo o que você precisa saber sobre congelar, armazenar e organizar as comidinhas do bebê com segurança.
+                Tudo o que você precisa saber sobre congelar, armazenar e
+                organizar as comidinhas do bebê com segurança.
               </p>
             </div>
           </div>
