@@ -322,7 +322,9 @@ function App() {
               className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-2 px-6 rounded-full text-md hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               <Download className="w-6 h-6 inline-block mr-3" />
-              QUERO GARANTIR MEU E-BOOK POR R$19,90
+              <span className="whitespace-nowrap">
+                QUERO GARANTIR MEU E-BOOK POR R$19,90
+              </span>
             </button>
 
             <p className="text-sm text-gray-500 mt-4">
