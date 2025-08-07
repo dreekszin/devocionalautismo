@@ -357,7 +357,7 @@ function App() {
             </button>
 
             <p className="text-sm text-gray-500 mt-4">
-              ✅ Sem spam • ✅ Direto no seu email • ✅ 100% gratuito
+              ✅ Sem spam • 📩 Direto no seu e-mail • 💯 Acesso imediato
             </p>
           </div>
         </div>
