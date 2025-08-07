@@ -1,31 +1,28 @@
-import React, { useState, useEffect } from 'react';
-import { 
-  Play, 
-  Download, 
-  Heart, 
-  Clock, 
-  Users, 
-  CheckCircle, 
-  Gift, 
-  Star,
-  MessageCircle,
-  ShieldCheck,
-  Timer,
-  BookOpen,
-  ChefHat,
-  Calendar,
-  ShoppingCart,
-  Video,
-  Award,
+import {
   ArrowRight,
-  Zap
-} from 'lucide-react';
+  Award,
+  BookOpen,
+  CheckCircle,
+  ChefHat,
+  Clock,
+  Download,
+  Gift,
+  Heart,
+  Play,
+  ShieldCheck,
+  Star,
+  Timer,
+  Users,
+  Video,
+  Zap,
+} from "lucide-react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [timeLeft, setTimeLeft] = useState({
     hours: 2,
     minutes: 47,
-    seconds: 33
+    seconds: 33,
   });
 
   const [showVideo, setShowVideo] = useState(false);
@@ -33,9 +30,9 @@ function App() {
   // Timer countdown
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeLeft(prev => {
+      setTimeLeft((prev) => {
         let { hours, minutes, seconds } = prev;
-        
+
         if (seconds > 0) {
           seconds--;
         } else if (minutes > 0) {
@@ -46,7 +43,7 @@ function App() {
           minutes = 59;
           seconds = 59;
         }
-        
+
         return { hours, minutes, seconds };
       });
     }, 1000);
@@ -59,39 +56,39 @@ function App() {
       name: "Ana Paula",
       location: "São Paulo, SP",
       text: "Minha filha de 8 meses ADOROU as receitas! Finalmente consegui introduzir vegetais sem drama. As dicas de congelamento salvaram minha rotina!",
-      rating: 5
+      rating: 5,
     },
     {
       name: "Carla Mendes",
-      location: "Rio de Janeiro, RJ", 
+      location: "Rio de Janeiro, RJ",
       text: "O cardápio semanal é uma mão na roda! Não preciso mais ficar pensando o que fazer para o meu bebê comer. Receitas práticas e nutritivas.",
-      rating: 5
+      rating: 5,
     },
     {
       name: "Luciana Silva",
       location: "Belo Horizonte, MG",
       text: "As 100 receitas são incríveis! Meu filho de 2 anos que era super seletivo agora experimenta de tudo. Recomendo demais!",
-      rating: 5
-    }
+      rating: 5,
+    },
   ];
 
   const faqs = [
     {
       q: "As receitas são adequadas para bebês com alergias?",
-      a: "Sim! Incluímos opções para diferentes necessidades, incluindo receitas sem glúten, sem lactose e dicas para identificar possíveis alergias."
+      a: "Sim! Incluímos opções para diferentes necessidades, incluindo receitas sem glúten, sem lactose e dicas para identificar possíveis alergias.",
     },
     {
       q: "Preciso ter experiência na cozinha?",
-      a: "Não! As receitas foram pensadas para mães práticas e ocupadas. Todas têm passo a passo simples e ingredientes fáceis de encontrar."
+      a: "Não! As receitas foram pensadas para mães práticas e ocupadas. Todas têm passo a passo simples e ingredientes fáceis de encontrar.",
     },
     {
       q: "O material funciona para crianças maiores também?",
-      a: "Sim! O e-book completo tem receitas para crianças de 6 meses até 6 anos, crescendo junto com seu filho."
+      a: "Sim! O e-book completo tem receitas para crianças de 6 meses até 6 anos, crescendo junto com seu filho.",
     },
     {
       q: "E se eu não ficar satisfeita?",
-      a: "Oferecemos garantia de 7 dias. Se não estiver satisfeita, devolvemos 100% do seu dinheiro, sem perguntas."
-    }
+      a: "Oferecemos garantia de 7 dias. Se não estiver satisfeita, devolvemos 100% do seu dinheiro, sem perguntas.",
+    },
   ];
 
   return (
@@ -101,7 +98,9 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-center">
             <Heart className="text-pink-500 w-8 h-8 mr-2" />
-            <h1 className="text-2xl font-bold text-gray-800">Alimentação com Amor</h1>
+            <h1 className="text-2xl font-bold text-gray-800">
+              Alimentação com Amor
+            </h1>
           </div>
         </div>
       </header>
@@ -114,20 +113,25 @@ function App() {
               ✨ ESPECIAL PARA MÃES AMOROSAS
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
-              Transforme a <span className="text-pink-500">Alimentação</span> do Seu Bebê 
-              <br />em Momentos de <span className="text-green-500">Alegria e Nutrição</span>
+              Transforme a <span className="text-pink-500">Alimentação</span> do
+              Seu Bebê
+              <br />
+              em Momentos de{" "}
+              <span className="text-green-500">Alegria e Nutrição</span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Descubra como mais de 15.000 mães conseguiram introduzir alimentação saudável 
-              sem dramas, choros ou desperdício de comida
+              Descubra como mais de 15.000 mães conseguiram introduzir
+              alimentação saudável sem dramas, choros ou desperdício de comida
             </p>
           </div>
 
           {/* VSL Video Player */}
           <div className="relative bg-black rounded-2xl shadow-2xl mb-8 overflow-hidden">
             {!showVideo ? (
-              <div className="relative h-80 md:h-96 bg-gradient-to-br from-pink-400 to-green-400 flex items-center justify-center cursor-pointer"
-                   onClick={() => setShowVideo(true)}>
+              <div
+                className="relative h-80 md:h-96 bg-gradient-to-br from-pink-400 to-green-400 flex items-center justify-center cursor-pointer"
+                onClick={() => setShowVideo(true)}
+              >
                 <div className="text-center">
                   <div className="bg-white rounded-full p-6 shadow-lg mb-4 inline-block hover:scale-110 transition-transform">
                     <Play className="w-12 h-12 text-pink-500 ml-1" />
@@ -147,7 +151,9 @@ function App() {
               <div className="h-80 md:h-96 bg-gray-900 flex items-center justify-center">
                 <div className="text-center text-white">
                   <Video className="w-16 h-16 mx-auto mb-4 opacity-50" />
-                  <p className="text-lg font-semibold mb-2">Vídeo Carregando...</p>
+                  <p className="text-lg font-semibold mb-2">
+                    Vídeo Carregando...
+                  </p>
                   <p className="text-sm opacity-75">Aguarde um momento</p>
                 </div>
               </div>
@@ -165,14 +171,14 @@ function App() {
                 7 receitas práticas e nutritivas para bebês de 6 a 12 meses
               </p>
             </div>
-            
+
             <div className="flex items-center justify-center mb-6">
               <div className="flex items-center bg-pink-50 rounded-full px-6 py-3">
                 <Timer className="w-5 h-5 text-pink-500 mr-2" />
                 <span className="font-semibold text-pink-700">
-                  Oferta válida por: {String(timeLeft.hours).padStart(2, '0')}:
-                  {String(timeLeft.minutes).padStart(2, '0')}:
-                  {String(timeLeft.seconds).padStart(2, '0')}
+                  Oferta válida por: {String(timeLeft.hours).padStart(2, "0")}:
+                  {String(timeLeft.minutes).padStart(2, "0")}:
+                  {String(timeLeft.seconds).padStart(2, "0")}
                 </span>
               </div>
             </div>
@@ -181,7 +187,7 @@ function App() {
               <Download className="w-6 h-6 inline-block mr-3" />
               QUERO RECEBER MEU E-BOOK GRÁTIS
             </button>
-            
+
             <p className="text-sm text-gray-500 mt-4">
               ✅ Sem spam • ✅ Direto no seu email • ✅ 100% gratuito
             </p>
@@ -197,32 +203,42 @@ function App() {
               Por que mais de 15.000 mães confiam em nós?
             </h2>
             <p className="text-xl text-gray-600">
-              Resultados comprovados que transformam a rotina alimentar da família
+              Resultados comprovados que transformam a rotina alimentar da
+              família
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 rounded-2xl bg-pink-50 border border-pink-100">
               <ChefHat className="w-12 h-12 text-pink-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Receitas Práticas</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Receitas Práticas
+              </h3>
               <p className="text-gray-600">
-                Ingredientes simples que você já tem em casa. Preparo rápido para mães ocupadas.
+                Ingredientes simples que você já tem em casa. Preparo rápido
+                para mães ocupadas.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-2xl bg-green-50 border border-green-100">
               <Heart className="w-12 h-12 text-green-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Nutrição Completa</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Nutrição Completa
+              </h3>
               <p className="text-gray-600">
-                Desenvolvido com nutricionista especializada em alimentação infantil.
+                Desenvolvido com nutricionista especializada em alimentação
+                infantil.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-2xl bg-blue-50 border border-blue-100">
               <Clock className="w-12 h-12 text-blue-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Economia de Tempo</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Economia de Tempo
+              </h3>
               <p className="text-gray-600">
-                Cardápios prontos e listas organizadas. Mais tempo para curtir seu bebê.
+                Cardápios prontos e listas organizadas. Mais tempo para curtir
+                seu bebê.
               </p>
             </div>
           </div>
@@ -255,12 +271,10 @@ function App() {
                 E-book Completo: 100+ Receitas
               </h3>
               <p className="text-gray-600 mb-4">
-                Receitas testadas e aprovadas para crianças de 6 meses a 6 anos. 
-                Inclui papinhas, finger foods, lanches saudáveis e refeições completas.
+                Receitas testadas e aprovadas para crianças de 6 meses a 6 anos.
+                Inclui papinhas, finger foods, lanches saudáveis e refeições
+                completas.
               </p>
-              <div className="text-right">
-                <span className="text-2xl font-bold text-pink-500">R$ 97,00</span>
-              </div>
             </div>
 
             {/* Bonus 1 */}
@@ -277,12 +291,9 @@ function App() {
                 Cardápio Semanal Pronto
               </h3>
               <p className="text-gray-600 mb-4">
-                4 semanas de cardápios balanceados para imprimir e usar. 
-                Nunca mais fique sem saber o que preparar!
+                4 semanas de cardápios balanceados para imprimir e usar. Nunca
+                mais fique sem saber o que preparar!
               </p>
-              <div className="text-right">
-                <span className="text-lg font-bold text-green-500">R$ 47,00</span>
-              </div>
             </div>
           </div>
 
@@ -301,12 +312,9 @@ function App() {
                 Lista de Compras Inteligente
               </h3>
               <p className="text-gray-600 mb-4">
-                Listas organizadas por categoria para facilitar suas compras. 
+                Listas organizadas por categoria para facilitar suas compras.
                 Economia de tempo e dinheiro garantida!
               </p>
-              <div className="text-right">
-                <span className="text-lg font-bold text-blue-500">R$ 27,00</span>
-              </div>
             </div>
 
             {/* Bonus 3 */}
@@ -323,12 +331,9 @@ function App() {
                 Mini-curso em Vídeo
               </h3>
               <p className="text-gray-600 mb-4">
-                Aprenda sobre introdução alimentar, congelamento e armazenamento. 
-                4 vídeos práticos com especialista.
+                Aprenda sobre introdução alimentar, congelamento e
+                armazenamento. 4 vídeos práticos com especialista.
               </p>
-              <div className="text-right">
-                <span className="text-lg font-bold text-purple-500">R$ 67,00</span>
-              </div>
             </div>
           </div>
 
@@ -338,10 +343,14 @@ function App() {
               Valor total se comprado separadamente:
             </h3>
             <div className="mb-4">
-              <span className="text-3xl font-bold text-gray-400 line-through">R$ 238,00</span>
+              <span className="text-3xl font-bold text-gray-400 line-through">
+                R$ 238,00
+              </span>
             </div>
             <div className="mb-6">
-              <span className="text-5xl font-bold text-green-500">R$ 47,00</span>
+              <span className="text-5xl font-bold text-green-500">
+                R$ 47,00
+              </span>
               <p className="text-lg text-gray-600 mt-2">
                 Desconto especial de 80% por tempo limitado!
               </p>
@@ -370,10 +379,16 @@ function App() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-pink-50 rounded-2xl p-6 border border-pink-100">
+              <div
+                key={index}
+                className="bg-pink-50 rounded-2xl p-6 border border-pink-100"
+              >
                 <div className="flex items-center mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    <Star
+                      key={i}
+                      className="w-5 h-5 text-yellow-400 fill-current"
+                    />
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4 italic">
@@ -384,8 +399,12 @@ function App() {
                     <Heart className="w-5 h-5 text-pink-500" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">{testimonial.name}</p>
-                    <p className="text-sm text-gray-500">{testimonial.location}</p>
+                    <p className="font-semibold text-gray-800">
+                      {testimonial.name}
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      {testimonial.location}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -408,13 +427,14 @@ function App() {
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200">
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200"
+              >
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
                   {faq.q}
                 </h3>
-                <p className="text-gray-600">
-                  {faq.a}
-                </p>
+                <p className="text-gray-600">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -430,7 +450,7 @@ function App() {
               Garantia Incondicional de 7 Dias
             </h2>
             <p className="text-xl text-gray-600 mb-6">
-              Se você não ficar completamente satisfeita com o material, 
+              Se você não ficar completamente satisfeita com o material,
               devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.
             </p>
             <div className="flex items-center justify-center">
@@ -450,16 +470,17 @@ function App() {
             Não deixe para amanhã o que pode transformar hoje
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Junte-se às milhares de mães que já transformaram a alimentação dos seus filhos
+            Junte-se às milhares de mães que já transformaram a alimentação dos
+            seus filhos
           </p>
-          
+
           <div className="bg-white bg-opacity-10 rounded-2xl p-6 mb-8 backdrop-blur-sm">
             <div className="flex items-center justify-center mb-4">
               <Timer className="w-6 h-6 mr-2" />
               <span className="text-lg font-semibold">
-                ⏰ Oferta expira em: {String(timeLeft.hours).padStart(2, '0')}:
-                {String(timeLeft.minutes).padStart(2, '0')}:
-                {String(timeLeft.seconds).padStart(2, '0')}
+                ⏰ Oferta expira em: {String(timeLeft.hours).padStart(2, "0")}:
+                {String(timeLeft.minutes).padStart(2, "0")}:
+                {String(timeLeft.seconds).padStart(2, "0")}
               </span>
             </div>
             <p className="text-pink-100">
@@ -502,8 +523,9 @@ function App() {
           <p className="text-sm text-gray-500">
             © 2025 Alimentação com Amor. Todos os direitos reservados.
             <br />
-            Este produto é comercializado com base na segurança do Hotmart. 
-            A plataforma não faz controle editorial prévio dos produtos comercializados.
+            Este produto é comercializado com base na segurança do Hotmart. A
+            plataforma não faz controle editorial prévio dos produtos
+            comercializados.
           </p>
         </div>
       </footer>
