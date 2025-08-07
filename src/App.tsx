@@ -162,16 +162,36 @@ function App() {
 
           {/* Main CTA */}
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-pink-100">
-            <div className="text-center mb-6">
+            <div className="text-center">
               <Gift className="w-12 h-12 text-pink-500 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-gray-800 mb-2">
-                Comece HOJE com nosso E-book GRATUITO
+                Comece HOJE com nosso E-book Especial
               </h3>
               <p className="text-lg text-gray-600">
-                7 receitas práticas e nutritivas para bebês de 6 a 12 meses
+                +100 receitas práticas e nutritivas para bebês de 6 a 12 meses
               </p>
             </div>
-
+            <div className="p-8 text-center borde">
+              <div className="mb-2">
+                <span className="text-3xl font-bold text-gray-400 line-through">
+                  R$ 197,90
+                </span>
+              </div>
+              <div className="mb-6">
+                <span className="text-5xl font-bold text-green-500">
+                  R$ 19,90
+                </span>
+                <p className="text-lg text-gray-600 mt-2">
+                  Desconto especial de 80% por tempo limitado!
+                </p>
+              </div>
+              <div className="flex items-center justify-center mb-6">
+                <Zap className="w-6 h-6 text-yellow-500 mr-2" />
+                <span className="text-lg font-semibold text-red-600">
+                  Restam apenas 23 vagas com esse desconto!
+                </span>
+              </div>
+            </div>
             <div className="flex items-center justify-center mb-6">
               <div className="flex items-center bg-pink-50 rounded-full px-6 py-3">
                 <Timer className="w-5 h-5 text-pink-500 mr-2" />
@@ -334,32 +354,6 @@ function App() {
                 Aprenda sobre introdução alimentar, congelamento e
                 armazenamento. 4 vídeos práticos com especialista.
               </p>
-            </div>
-          </div>
-
-          {/* Price Summary */}
-          <div className="bg-white rounded-2xl shadow-2xl p-8 text-center border border-pink-200">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">
-              Valor total se comprado separadamente:
-            </h3>
-            <div className="mb-4">
-              <span className="text-3xl font-bold text-gray-400 line-through">
-                R$ 238,00
-              </span>
-            </div>
-            <div className="mb-6">
-              <span className="text-5xl font-bold text-green-500">
-                R$ 47,00
-              </span>
-              <p className="text-lg text-gray-600 mt-2">
-                Desconto especial de 80% por tempo limitado!
-              </p>
-            </div>
-            <div className="flex items-center justify-center mb-6">
-              <Zap className="w-6 h-6 text-yellow-500 mr-2" />
-              <span className="text-lg font-semibold text-red-600">
-                Restam apenas 23 vagas com esse desconto!
-              </span>
             </div>
           </div>
         </div>
