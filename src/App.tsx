@@ -5,7 +5,6 @@ import {
   CheckCircle,
   ChefHat,
   Clock,
-  Download,
   Gift,
   Heart,
   ShieldCheck,
@@ -298,7 +297,7 @@ function App() {
                 </p>
               </div>
               <div className="flex items-center justify-center">
-                <Zap className="w-6 h-6 text-yellow-500 mr-2" />
+                <Zap className="w-6 h-6 text-yellow-500 self-baseline" />
                 <span className="text-lg font-semibold text-red-600">
                   Restam apenas 23 vagas com esse desconto!
                 </span>
@@ -319,11 +318,10 @@ function App() {
               onClick={() =>
                 window.open("https://pay.cakto.com.br/g7eeabv_514267", "_blank")
               }
-              className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-2 px-6 rounded-full text-md hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-6 rounded-full text-md hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
-              <Download className="w-6 h-6 inline-block mr-3" />
               <span className="whitespace-nowrap">
-                QUERO GARANTIR MEU E-BOOK POR R$19,90
+                QUERO GARANTIR MEU <br /> E-BOOK POR R$19,90
               </span>
             </button>
 
