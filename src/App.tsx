@@ -13,7 +13,6 @@ import {
   Star,
   Timer,
   Users,
-  Video,
   Zap,
 } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -143,19 +142,13 @@ function App() {
                     👆 Clique para assistir (3 min)
                   </p>
                 </div>
-                <div className="absolute top-4 left-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  🔴 AO VIVO
-                </div>
               </div>
             ) : (
               <div className="h-80 md:h-96 bg-gray-900 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <Video className="w-16 h-16 mx-auto mb-4 opacity-50" />
-                  <p className="text-lg font-semibold mb-2">
-                    Vídeo Carregando...
-                  </p>
-                  <p className="text-sm opacity-75">Aguarde um momento</p>
-                </div>
+                <video className="w-full h-full max-w-3xl" autoPlay>
+                  <source src="/videos/vsl.mp4" type="video/mp4" />
+                  Seu navegador não suporta vídeo HTML5.
+                </video>
               </div>
             )}
           </div>
@@ -521,7 +514,7 @@ function App() {
           <p className="text-sm text-gray-500">
             © 2025 Alimentação com Amor. Todos os direitos reservados.
             <br />
-            Este produto é comercializado com base na segurança do Hotmart. A
+            Este produto é comercializado com base na segurança do Cakto. A
             plataforma não faz controle editorial prévio dos produtos
             comercializados.
           </p>
