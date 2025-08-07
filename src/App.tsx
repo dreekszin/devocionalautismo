@@ -319,7 +319,7 @@ function App() {
               onClick={() =>
                 window.open("https://pay.cakto.com.br/g7eeabv_514267", "_blank")
               }
-              className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-2 px-6 rounded-full text-md hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               <Download className="w-6 h-6 inline-block mr-3" />
               QUERO GARANTIR MEU E-BOOK POR R$19,90
@@ -459,7 +459,7 @@ function App() {
             onClick={() =>
               window.open("https://pay.cakto.com.br/g7eeabv_514267", "_blank")
             }
-            className="w-full max-w-lg bg-white text-pink-600 font-bold py-6 px-8 rounded-full text-xl hover:bg-gray-100 transition-all duration-300 shadow-2xl transform hover:scale-105 mb-6"
+            className="w-full max-w-lg bg-white text-pink-600 font-bold py-2 px-4 rounded-full text-md hover:bg-gray-100 transition-all duration-300 shadow-2xl transform hover:scale-105 mb-6"
           >
             <ArrowRight className="w-6 h-6 inline-block mr-3" />
             SIM, EU QUERO O GUIA AGORA POR R$19,90!
