@@ -98,7 +98,7 @@ function App() {
           <div className="flex items-center justify-center">
             <Heart className="text-pink-500 w-8 h-8 mr-2" />
             <h1 className="text-2xl font-bold text-gray-800">
-              Alimentação com Amor
+              Receitinhas do Bebê
             </h1>
           </div>
         </div>
@@ -111,7 +111,7 @@ function App() {
             <span className="inline-block bg-pink-100 text-pink-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
               ✨ ESPECIAL PARA MÃES AMOROSAS
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
               Transforme a <span className="text-pink-500">Alimentação</span> do
               Seu Bebê
               <br />
@@ -128,7 +128,7 @@ function App() {
           <div className="relative bg-black rounded-2xl shadow-2xl mb-8 overflow-hidden">
             {!showVideo ? (
               <div
-                className="relative h-80 md:h-96 bg-gradient-to-br from-pink-400 to-green-400 flex items-center justify-center cursor-pointer"
+                className="relative h-80 md:h-96 bg-gradient-to-br from-pink-400 to-green-300 flex items-center justify-center cursor-pointer"
                 onClick={() => setShowVideo(true)}
               >
                 <div className="text-center">
@@ -136,10 +136,10 @@ function App() {
                     <Play className="w-12 h-12 text-pink-500 ml-1" />
                   </div>
                   <p className="text-white font-semibold text-lg">
-                    Assista ao vídeo e descubra o segredo
+                    Começar Agora
                   </p>
-                  <p className="text-pink-100 text-sm mt-2">
-                    👆 Clique para assistir (3 min)
+                  <p className="text-white text-sm mt-2">
+                    👆 Veja como funciona em apenas 3 min
                   </p>
                 </div>
               </div>
@@ -231,7 +231,7 @@ function App() {
                 E-book Completo: 100+ Receitas
               </h3>
               <p className="text-gray-600 mb-4">
-                Receitas testadas e aprovadas para crianças de 6 meses a 6 anos.
+                Receitas testadas e aprovadas para crianças de 6 meses a 12 meses.
                 Inclui papinhas, finger foods, lanches saudáveis e refeições
                 completas.
               </p>
@@ -248,11 +248,10 @@ function App() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
-                Cardápio Semanal Pronto
+                Introdução Alimentar para Bebês de 6 a 12 meses.
               </h3>
               <p className="text-gray-600 mb-4">
-                4 semanas de cardápios balanceados para imprimir e usar. Nunca
-                mais fique sem saber o que preparar!
+                Nunca mais fique sem ideia do que oferecer: 4 semanas de refeições pensadas para a fase de 6 a 12 meses.
               </p>
             </div>
           </div>
@@ -269,11 +268,10 @@ function App() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
-                Lista de Compras Inteligente
+                Substituições saudáveis para Bebês de 6 a 12 meses.
               </h3>
               <p className="text-gray-600 mb-4">
-                Listas organizadas por categoria para facilitar suas compras.
-                Economia de tempo e dinheiro garantida!
+                Descubra opções saudáveis para substituir alimentos comuns sem perder o valor nutricional. Ideal para variar o cardápio do bebê com segurança!
               </p>
             </div>
 
@@ -288,11 +286,10 @@ function App() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
-                Mini-curso em Vídeo
+                Guia Essencial: Armazenamento Seguro de Alimentos para Bebês.
               </h3>
               <p className="text-gray-600 mb-4">
-                Aprenda sobre introdução alimentar, congelamento e
-                armazenamento. 4 vídeos práticos com especialista.
+                Tudo o que você precisa saber sobre congelar, armazenar e organizar as comidinhas do bebê com segurança.
               </p>
             </div>
           </div>
@@ -350,7 +347,7 @@ function App() {
             </button>
 
             <p className="text-sm text-gray-500 mt-4">
-              ✅ Sem spam • 📩 Direto no seu e-mail • 💯 Acesso imediato
+              ✅ Sem spam • 📩 Direto no seu e-mail • ⚡ Acesso imediato
             </p>
           </div>
         </div>
@@ -481,7 +478,7 @@ function App() {
 
           <button className="w-full max-w-lg bg-white text-pink-600 font-bold py-6 px-8 rounded-full text-xl hover:bg-gray-100 transition-all duration-300 shadow-2xl transform hover:scale-105 mb-6">
             <ArrowRight className="w-6 h-6 inline-block mr-3" />
-            GARANTIR MINHA VAGA POR R$ 19,90
+            SIM, EU QUERO O GUIA AGORA POR R$19,90!
           </button>
 
           <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -506,15 +503,15 @@ function App() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center mb-4">
             <Heart className="text-pink-400 w-6 h-6 mr-2" />
-            <span className="text-xl font-semibold">Alimentação com Amor</span>
+            <span className="text-xl font-semibold">Receitinhas do Bebê</span>
           </div>
           <p className="text-gray-400 mb-4">
             Transformando a alimentação infantil com carinho e ciência
           </p>
           <p className="text-sm text-gray-500">
-            © 2025 Alimentação com Amor. Todos os direitos reservados.
+            © 2025 Receitinhas do Bebê. Todos os direitos reservados.
             <br />
-            Este produto é comercializado com base na segurança do Cakto. A
+            Este produto é comercializado com base na segurança da Cakto. A
             plataforma não faz controle editorial prévio dos produtos
             comercializados.
           </p>
