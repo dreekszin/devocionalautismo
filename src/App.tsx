@@ -472,7 +472,7 @@ function App() {
             seus filhos
           </p>
 
-          <div className="bg-white bg-opacity-10 rounded-2xl p-6 mb-8 backdrop-blur-sm">
+          <div className="rounded-2xl p-6 mb-8 backdrop-blur-sm">
             <div className="flex items-center justify-center mb-4">
               <Timer className="w-6 h-6 mr-2" />
               <span className="text-lg font-semibold">
@@ -482,13 +482,13 @@ function App() {
               </span>
             </div>
             <p className="text-pink-100">
-              Depois deste prazo, o valor volta para R$ 238,00
+              Depois deste prazo, o valor volta para R$ 197,00
             </p>
           </div>
 
           <button className="w-full max-w-lg bg-white text-pink-600 font-bold py-6 px-8 rounded-full text-xl hover:bg-gray-100 transition-all duration-300 shadow-2xl transform hover:scale-105 mb-6">
             <ArrowRight className="w-6 h-6 inline-block mr-3" />
-            GARANTIR MINHA VAGA POR R$ 47,00
+            GARANTIR MINHA VAGA POR R$ 19,90
           </button>
 
           <div className="grid md:grid-cols-3 gap-6 text-center">
