@@ -146,7 +146,7 @@ function App() {
             ) : (
               <div className="h-80 md:h-96 bg-gray-900 flex items-center justify-center">
                 <video className="w-full h-full max-w-3xl" autoPlay>
-                  <source src="/videos/vsl.mp4" type="video/mp4" />
+                  <source src="/vsl.mp4" type="video/mp4" />
                   Seu navegador não suporta vídeo HTML5.
                 </video>
               </div>
