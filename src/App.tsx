@@ -315,7 +315,12 @@ function App() {
               </div>
             </div>
 
-            <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+            <button
+              onClick={() =>
+                window.open("https://pay.cakto.com.br/g7eeabv_514267", "_blank")
+              }
+              className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
               <Download className="w-6 h-6 inline-block mr-3" />
               QUERO GARANTIR MEU E-BOOK POR R$19,90
             </button>
