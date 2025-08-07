@@ -8,7 +8,6 @@ import {
   Download,
   Gift,
   Heart,
-  Play,
   ShieldCheck,
   Star,
   Timer,
@@ -24,8 +23,6 @@ function App() {
     minutes: 47,
     seconds: 33,
   });
-
-  const [showVideo, setShowVideo] = useState(false);
 
   // Timer countdown
   useEffect(() => {
@@ -125,34 +122,6 @@ function App() {
             </p>
           </div>
           <VSLPlayer />
-          {/* VSL Video Player */}
-          <div className="relative bg-black rounded-2xl shadow-2xl mb-8 overflow-hidden">
-            {!showVideo ? (
-              <div
-                className="relative h-80 md:h-96 bg-gradient-to-br from-pink-400 to-green-300 flex items-center justify-center cursor-pointer"
-                onClick={() => setShowVideo(true)}
-              >
-                <div className="text-center">
-                  <div className="bg-white rounded-full p-6 shadow-lg mb-4 inline-block hover:scale-110 transition-transform">
-                    <Play className="w-12 h-12 text-pink-500 ml-1" />
-                  </div>
-                  <p className="text-white font-semibold text-lg">
-                    Começar Agora
-                  </p>
-                  <p className="text-white text-sm mt-2">
-                    👆 Veja como funciona em apenas 3 min
-                  </p>
-                </div>
-              </div>
-            ) : (
-              <div className="h-80 md:h-96 bg-gray-900 flex items-center justify-center">
-                <video className="w-full h-full max-w-3xl" autoPlay>
-                  <source src="/vsl.mp4" type="video/mp4" />
-                  Seu navegador não suporta vídeo HTML5.
-                </video>
-              </div>
-            )}
-          </div>
         </div>
       </section>
 
