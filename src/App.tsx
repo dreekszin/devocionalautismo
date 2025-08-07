@@ -159,59 +159,6 @@ function App() {
               </div>
             )}
           </div>
-
-          {/* Main CTA */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 border border-pink-100">
-            <div className="text-center">
-              <Gift className="w-12 h-12 text-pink-500 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">
-                Comece HOJE com nosso E-book Especial
-              </h3>
-              <p className="text-lg text-gray-600">
-                +100 receitas práticas e nutritivas para bebês de 6 a 12 meses
-              </p>
-            </div>
-            <div className="p-8 text-center borde">
-              <div className="mb-2">
-                <span className="text-3xl font-bold text-gray-400 line-through">
-                  R$ 197,90
-                </span>
-              </div>
-              <div className="mb-6">
-                <span className="text-5xl font-bold text-green-500">
-                  R$ 19,90
-                </span>
-                <p className="text-lg text-gray-600 mt-2">
-                  Desconto especial de 90% por tempo limitado!
-                </p>
-              </div>
-              <div className="flex items-center justify-center">
-                <Zap className="w-6 h-6 text-yellow-500 mr-2" />
-                <span className="text-lg font-semibold text-red-600">
-                  Restam apenas 23 vagas com esse desconto!
-                </span>
-              </div>
-            </div>
-            <div className="flex items-center justify-center mb-6">
-              <div className="flex items-center bg-pink-50 rounded-full px-6 py-3">
-                <Timer className="w-5 h-5 text-pink-500 mr-2" />
-                <span className="font-semibold text-pink-700">
-                  Oferta válida por: {String(timeLeft.hours).padStart(2, "0")}:
-                  {String(timeLeft.minutes).padStart(2, "0")}:
-                  {String(timeLeft.seconds).padStart(2, "0")}
-                </span>
-              </div>
-            </div>
-
-            <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-              <Download className="w-6 h-6 inline-block mr-3" />
-              QUERO GARANTIR MEU E-BOOK POR R$19,90
-            </button>
-
-            <p className="text-sm text-gray-500 mt-4">
-              ✅ Sem spam • 📩 Direto no seu e-mail • 💯 Acesso imediato
-            </p>
-          </div>
         </div>
       </section>
 
@@ -266,7 +213,7 @@ function App() {
       </section>
 
       {/* What You'll Get Section */}
-      <section className="py-16 px-4 bg-gradient-to-br from-pink-50 to-green-50">
+      <section className="pt-16 pb-10 px-4 bg-gradient-to-br from-pink-50 to-green-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <span className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -317,7 +264,7 @@ function App() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Bonus 2 */}
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
               <div className="flex items-start mb-4">
@@ -355,6 +302,63 @@ function App() {
                 armazenamento. 4 vídeos práticos com especialista.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-12 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Main CTA */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 border border-pink-100">
+            <div className="text-center">
+              <Gift className="w-12 h-12 text-pink-500 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">
+                Comece HOJE com nosso E-book Especial
+              </h3>
+              <p className="text-lg text-gray-600">
+                +100 receitas práticas e nutritivas para bebês de 6 a 12 meses
+              </p>
+            </div>
+            <div className="p-8 text-center borde">
+              <div className="mb-2">
+                <span className="text-3xl font-bold text-gray-400 line-through">
+                  R$ 197,90
+                </span>
+              </div>
+              <div className="mb-6">
+                <span className="text-5xl font-bold text-green-500">
+                  R$ 19,90
+                </span>
+                <p className="text-lg text-gray-600 mt-2">
+                  Desconto especial de 90% por tempo limitado!
+                </p>
+              </div>
+              <div className="flex items-center justify-center">
+                <Zap className="w-6 h-6 text-yellow-500 mr-2" />
+                <span className="text-lg font-semibold text-red-600">
+                  Restam apenas 23 vagas com esse desconto!
+                </span>
+              </div>
+            </div>
+            <div className="flex items-center justify-center mb-6">
+              <div className="flex items-center bg-pink-50 rounded-full px-6 py-3">
+                <Timer className="w-5 h-5 text-pink-500 mr-2" />
+                <span className="font-semibold text-pink-700">
+                  Oferta válida por: {String(timeLeft.hours).padStart(2, "0")}:
+                  {String(timeLeft.minutes).padStart(2, "0")}:
+                  {String(timeLeft.seconds).padStart(2, "0")}
+                </span>
+              </div>
+            </div>
+
+            <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Download className="w-6 h-6 inline-block mr-3" />
+              QUERO GARANTIR MEU E-BOOK POR R$19,90
+            </button>
+
+            <p className="text-sm text-gray-500 mt-4">
+              ✅ Sem spam • ✅ Direto no seu email • ✅ 100% gratuito
+            </p>
           </div>
         </div>
       </section>
