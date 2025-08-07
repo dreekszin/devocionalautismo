@@ -182,10 +182,10 @@ function App() {
                   R$ 19,90
                 </span>
                 <p className="text-lg text-gray-600 mt-2">
-                  Desconto especial de 80% por tempo limitado!
+                  Desconto especial de 90% por tempo limitado!
                 </p>
               </div>
-              <div className="flex items-center justify-center mb-6">
+              <div className="flex items-center justify-center">
                 <Zap className="w-6 h-6 text-yellow-500 mr-2" />
                 <span className="text-lg font-semibold text-red-600">
                   Restam apenas 23 vagas com esse desconto!
@@ -205,11 +205,11 @@ function App() {
 
             <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
               <Download className="w-6 h-6 inline-block mr-3" />
-              QUERO RECEBER MEU E-BOOK GRÁTIS
+              QUERO GARANTIR MEU E-BOOK POR R$19,90
             </button>
 
             <p className="text-sm text-gray-500 mt-4">
-              ✅ Sem spam • ✅ Direto no seu email • ✅ 100% gratuito
+              ✅ Sem spam • 📩 Direto no seu e-mail • 💯 Acesso imediato
             </p>
           </div>
         </div>
