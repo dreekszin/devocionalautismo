@@ -14,6 +14,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import PixelLoader from "./components/pixel";
 import VSLPlayer from "./components/vsl";
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-green-50">
+      <PixelLoader />
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-pink-100">
         <div className="max-w-6xl mx-auto px-4 py-4">
