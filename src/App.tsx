@@ -198,10 +198,10 @@ function App() {
   return (
     <div className="min-h-screen">
       {/* Hero Section with VSL */}
-      <section className="pt-0 bg-[#ebd2ae]">
+      <section className="pt-0 bg-[#f5f1ea]">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <div className="rounded-md flex flex-col md:flex-row items-center bg-[#ebd2ae] p-1">
+            <div className="rounded-md flex flex-col md:flex-row items-center bg-[#f5f1ea] p-1">
               {/* Texto */}
               <div className="order-2 md:order-1 md:w-1/2 text-left p-4">
                 <h1 className="text-2xl text-center md:text-3xl font-extrabold leading-tight text-foreground mb-6">
@@ -223,7 +223,7 @@ function App() {
                     href="https://pay.cakto.com.br/37z4v27_589100"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full max-w-xl px-6 py-4 rounded-full text-white bg-emerald-500 font-extrabold text-base md:text-lg shadow-lg text-center"
+                    className="w-full max-w-xl px-6 py-4 rounded-full text-white bg-[#0B6856] font-extrabold text-base md:text-lg shadow-lg text-center"
                     aria-label="Comprar o devocional Esvazie a Culpa"
                     title="Esvazie a Culpa: Um Devocional para Você"
                   >
@@ -361,7 +361,7 @@ function App() {
                 </article>
               </div>
 
-              <div className="p-6 bg-[#ebd2ae] text-center max-w-2xl mx-auto rounded-xl">
+              <div className="p-6 bg-[#f5f1ea] text-center max-w-2xl mx-auto rounded-xl">
                 <p className="text-lg italic font-medium text-black">
                   “Ele fortalece o cansado e dá grande vigor ao que está sem
                   forças... mas os que esperam no Senhor renovam as suas forças.
@@ -371,13 +371,13 @@ function App() {
                 <p className="text-sm mt-2 text-black/90">Isaías 40:29-31</p>
               </div>
             </div>
-            <section className="p-6 mt-5 w-full bg-[#ebd2ae] pt-10">
+            <section className="p-6 mt-5 w-full bg-[#f5f1ea] pt-10">
               <div className="mx-auto max-w-6xl grid md:grid-cols-2 gap-8 items-center px-4">
                 {/* Texto e Lista */}
                 <div className="space-y-6 md:order-2">
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
                     Como funciona o{" "}
-                    <span className="text-emerald-500">
+                    <span className="text-[#0B6856]">
                       {" "}
                       Devocional Força de Mãe
                     </span>{" "}
@@ -421,7 +421,7 @@ function App() {
                       <li key={index} className="flex items-start gap-3">
                         <div>
                           <p className="font-semibold text-gray-900">
-                            <span className="text-emerald-500 text-xl mt-1">
+                            <span className="text-[#0B6856] text-xl mt-1">
                               💚
                             </span>{" "}
                             {item.title}
@@ -438,7 +438,7 @@ function App() {
                   <div className="pt-2 pb-5">
                     <a
                       href="https://pay.cakto.com.br/37z4v27_589100"
-                      className="w-full sm:w-auto px-6 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg flex justify-center text-center"
+                      className="w-full sm:w-auto px-6 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lg flex justify-center text-center"
                     >
                       10 MINUTOS DE PAZ: RENOVE-SE HOJE!
                     </a>
@@ -567,7 +567,7 @@ function App() {
                     <p className="text-sm text-gray-700 mt-1">
                       {item.description}
                     </p>
-                    <p className="mt-2 text-xs font-semibold text-emerald-500">
+                    <p className="mt-2 text-xs font-semibold text-[#0B6856]">
                       {item.missing}
                     </p>
                   </div>
@@ -577,7 +577,7 @@ function App() {
           </div>
 
           {/* Destaque final */}
-          <div className="p-6 bg-[#ebd2ae] text-center max-w-2xl mx-auto rounded-xl mt-8">
+          <div className="p-6 bg-[#f5f1ea] text-center max-w-2xl mx-auto rounded-xl mt-8">
             <p className="text-lg italic font-medium text-black">
               <strong>
                 Devocional Força de Mãe: fé renovada, passos práticos e
@@ -588,12 +588,12 @@ function App() {
         </div>
       </section>
 
-      <section id="honestidade" className="w-full bg-[#ebd2ae] pt-10 pb-5">
+      <section id="honestidade" className="w-full bg-[#f5f1ea] pt-10 pb-5">
         <div className="max-w-6xl mx-auto px-4 space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center">
             Antes de continuar,{" "}
-            <span className="text-emerald-500">precisamos ser honestos</span>{" "}
-            com você:
+            <span className="text-[#0B6856]">precisamos ser honestos</span> com
+            você:
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -624,7 +624,7 @@ function App() {
 
             {/* Card ISTO É */}
             <article className="p-6 bg-emerald-100 rounded-xl border border-emerald-300">
-              <h3 className="text-xl font-bold text-emerald-500 mb-4">
+              <h3 className="text-xl font-bold text-[#0B6856] mb-4">
                 Isto <u>é</u>:
               </h3>
               <ul className="space-y-3 text-sm text-gray-900">
@@ -636,7 +636,7 @@ function App() {
                   "Acolhimento real: devocional + áudios + comunidade de apoio.",
                 ].map((text, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-emerald-500 text-lg mt-0.5">✅</span>
+                    <span className="text-[#0B6856] text-lg mt-0.5">✅</span>
                     <span>{text}</span>
                   </li>
                 ))}
@@ -656,10 +656,7 @@ function App() {
           <header className="text-center space-y-3">
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
               Tudo o que você recebe ao entrar no
-              <span className="text-emerald-500">
-                {" "}
-                Devocional Força de Mãe:
-              </span>
+              <span className="text-[#0B6856]"> Devocional Força de Mãe:</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Seu kit completo de apoio e fé na maternidade atípica
@@ -733,7 +730,7 @@ function App() {
                   },
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3">
-                    <span className="text-emerald-500 text-xl mt-0.5">
+                    <span className="text-[#0B6856] text-xl mt-0.5">
                       {item.icon}
                     </span>
                     <div>
@@ -771,7 +768,7 @@ function App() {
                   },
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3">
-                    <span className="text-emerald-500 text-xl mt-0.5">
+                    <span className="text-[#0B6856] text-xl mt-0.5">
                       {item.icon}
                     </span>
                     <div>
@@ -809,7 +806,7 @@ function App() {
 
           {/* Valores e CTA */}
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl border bg-[#ebd2ae] text-center">
+            <div className="p-6 rounded-2xl border bg-[#f5f1ea] text-center">
               <p className="text-sm uppercase tracking-wide opacity-90">
                 Valor somado
               </p>
@@ -818,7 +815,7 @@ function App() {
               </p>
             </div>
             <a href="https://pay.cakto.com.br/37z4v27_589100">
-              <div className="p-6 rounded-2xl border border-emerald-300 bg-emerald-500 text-center">
+              <div className="p-6 rounded-2xl border border-gray-100 bg-[#0B6856] text-center">
                 <p className="text-sm uppercase tracking-wide text-emerald-100">
                   Hoje
                 </p>
@@ -853,7 +850,7 @@ function App() {
             </div>
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
-              className="inline-flex items-center justify-center w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lgbg-emerald-600 transition-colors flex-wrap text-center"
+              className="inline-flex items-center justify-center w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lgbg-[#0B6856] transition-colors flex-wrap text-center"
             >
               QUERO TUDO ISSO POR R$27,90 →
             </a>
@@ -864,11 +861,11 @@ function App() {
         </div>
       </section>
 
-      <section className="w-full bg-[#ebd2ae] pt-10">
+      <section className="w-full bg-[#f5f1ea] pt-10">
         <div className="text-center space-y-8 max-w-6xl mx-auto section-container px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Bônus Exclusivos{" "}
-            <span className="text-emerald-500">(por tempo limitado)</span>
+            <span className="text-[#0B6856]">(por tempo limitado)</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Presentes que aceleram sua paz diária e te acompanham nos dias mais
@@ -924,7 +921,7 @@ function App() {
           <div className="pt-4 pb-5">
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
-              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
+              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
             >
               NÃO PERCA! SEU DEVOCIONAL COMEÇA AGORA!
             </a>
@@ -958,7 +955,7 @@ function App() {
         </div>
       </section>
 
-      <section className="w-full bg-[#ebd2ae] pt-10">
+      <section className="w-full bg-[#f5f1ea] pt-10">
         <div className="space-y-8 max-w-6xl mx-auto text-center section-container px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Mães que já encontraram paz
@@ -1217,7 +1214,7 @@ function App() {
           <div className="pt-2 pb-5">
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
-              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
+              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
             >
               NÃO PERCA! SEU DEVOCIONAL COMEÇA AGORA!
             </a>
@@ -1482,7 +1479,7 @@ function App() {
           <div className="text-center pt-6">
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
-              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-primary rounded-full shadow-lg bg-emerald-600 transition-colors flex justify-center flex-wrap text-center"
+              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-primary rounded-full shadow-lg bg-[#0B6856] transition-colors flex justify-center flex-wrap text-center"
             >
               PRONTO(A) PARA COMEÇAR HOJE →
             </a>
@@ -1493,7 +1490,7 @@ function App() {
         </div>
       </section>
 
-      <section className="w-full bg-[#ebd2ae] pt-10 px-4 sm:px-6 md:px-8">
+      <section className="w-full bg-[#f5f1ea] pt-10 px-4 sm:px-6 md:px-8">
         <div className="text-center space-y-8 max-w-5xl mx-auto">
           <div className="flex items-center justify-center gap-2">
             <span className="text-3xl">⏰</span>
@@ -1549,7 +1546,7 @@ function App() {
 
           <a
             href="https://pay.cakto.com.br/37z4v27_589100"
-            className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-600 rounded-full shadow-lg hover:bg-emerald-700 transition-colors flex justify-center flex-wrap text-center"
+            className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lg hover:bg-[#0B6856] transition-colors flex justify-center flex-wrap text-center"
           >
             QUERO MEUS 10 MINUTOS DE PAZ AGORA →
           </a>
@@ -1593,7 +1590,7 @@ function App() {
           <div className="space-y-2">
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
-              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-primary rounded-full shadow-lg bg-emerald-600 transition-colors flex justify-center text-center"
+              className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-primary rounded-full shadow-lg bg-[#0B6856] transition-colors flex justify-center text-center"
             >
               ESVAZIE A CULPA: UM DEVOCIONAL PARA VOCÊ!
             </a>
@@ -1603,10 +1600,6 @@ function App() {
 
       <footer className="py-8 px-4 bg-gray-800 text-white">
         <div className="max-w-6xl mx-auto text-center space-y-4">
-          <p className="text-gray-400">
-            Um devocional feito para você encontrar paz e reconexão com Deus.
-          </p>
-
           <p className="text-sm text-gray-500">
             © 2025 Devocional Força de Mãe. Todos os direitos reservados.
             <br />
@@ -1643,7 +1636,7 @@ function App() {
                       </span>
                     </p>
                     <p className="text-sm text-gray-500">
-                      comprou <span className="mx-1">•</span> {toast.product}
+                      Comprou <span className="mx-1">•</span> {toast.product}
                     </p>
                     <p className="text-xs text-gray-400 mt-1">{toast.time}</p>
                   </div>
