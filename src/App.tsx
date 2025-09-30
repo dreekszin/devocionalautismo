@@ -15,10 +15,9 @@ function App() {
       id: 1,
       name: "Yasmin",
       city: "Vitória-ES",
-      product: "Devocional SOS",
+      product: "Devocional Força de Mãe",
       time: "há 1 hora",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 2,
@@ -26,8 +25,7 @@ function App() {
       city: "Rio de Janeiro-RJ",
       product: "Checklist de Autocuidado",
       time: "há 2 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 3,
@@ -35,8 +33,7 @@ function App() {
       city: "São Paulo-SP",
       product: "Planner Emocional",
       time: "há 3 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 4,
@@ -44,17 +41,15 @@ function App() {
       city: "Belo Horizonte-MG",
       product: "Guia de Crises",
       time: "há 4 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 5,
       name: "Mariana",
       city: "Curitiba-PR",
-      product: "Devocional SOS",
+      product: "Devocional Força de Mãe",
       time: "há 5 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 6,
@@ -62,8 +57,7 @@ function App() {
       city: "Fortaleza-CE",
       product: "Checklist de Autocuidado",
       time: "há 6 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 7,
@@ -71,8 +65,7 @@ function App() {
       city: "Recife-PE",
       product: "Planner Emocional",
       time: "há 7 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 8,
@@ -80,17 +73,15 @@ function App() {
       city: "Porto Alegre-RS",
       product: "Guia de Crises",
       time: "há 8 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 9,
       name: "Luciana",
       city: "Salvador-BA",
-      product: "Devocional SOS",
+      product: "Devocional Força de Mãe",
       time: "há 9 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 10,
@@ -98,8 +89,7 @@ function App() {
       city: "Manaus-AM",
       product: "Checklist de Autocuidado",
       time: "há 10 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 11,
@@ -107,8 +97,7 @@ function App() {
       city: "Goiânia-GO",
       product: "Planner Emocional",
       time: "há 11 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 12,
@@ -116,17 +105,15 @@ function App() {
       city: "Florianópolis-SC",
       product: "Guia de Crises",
       time: "há 12 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 13,
       name: "Camila",
       city: "Natal-RN",
-      product: "Devocional SOS",
+      product: "Devocional Força de Mãe",
       time: "há 13 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 14,
@@ -134,8 +121,7 @@ function App() {
       city: "Maceió-AL",
       product: "Checklist de Autocuidado",
       time: "há 14 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
     {
       id: 15,
@@ -143,8 +129,7 @@ function App() {
       city: "Belém-PA",
       product: "Planner Emocional",
       time: "há 15 horas",
-      image:
-        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+      image: "/images/Capa-devocional-tea-30.webp",
     },
   ];
 
@@ -152,12 +137,20 @@ function App() {
 
   useEffect(() => {
     let index = 0;
+
     const interval = setInterval(() => {
       setCurrentToast(toasts[index].id);
+
+      // Faz o toast sumir após 2s
+      setTimeout(() => {
+        setCurrentToast(null);
+      }, 3000);
+
       index = (index + 1) % toasts.length;
-    }, 5000); // muda o toast a cada 5s
+    }, 10000); // a cada 5s aparece um novo toast
 
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   interface TimeLeft {
@@ -212,17 +205,17 @@ function App() {
               {/* Texto */}
               <div className="order-2 md:order-1 md:w-1/2 text-left p-4">
                 <h1 className="text-2xl text-center md:text-3xl font-extrabold leading-tight text-foreground mb-6">
-                  Devocional para Mães de Crianças com Autismo (TEA)
+                  Um devocional feito para fortalecer o coração das mães de
+                  crianças com autismo (TEA).
                 </h1>
                 <p className="text-center text-base md:text-xl text-muted-foreground leading-relaxed mb-4">
-                  Encontre força em Deus, alívio emocional e acolhimento diário
-                  — mesmo nos dias mais difíceis da maternidade atípica.
+                  Mesmo nos dias mais pesados da maternidade atípica, há
+                  descanso em Deus.
                 </p>
                 <p className="text-center text-base md:text-xl text-muted-foreground leading-relaxed">
-                  Você não está sozinha. Este devocional foi criado para te
-                  lembrar que, mesmo nas noites sem dormir, nas lágrimas
-                  escondidas e nos momentos em que sua fé vacila... Deus ainda
-                  está com você.
+                  Este devocional foi feito para lembrar que você não caminha
+                  sozinha: nas noites de insônia, nas lágrimas silenciosas e nas
+                  horas de incerteza, Ele permanece ao seu lado.
                 </p>
 
                 <div className="flex justify-center pt-4 max-w-xl">
@@ -266,8 +259,8 @@ function App() {
 
                 <p className="inline-flex text-center items-center px-4 py-2 mt-2 text-green-600 text-sm font-medium">
                   <span>
-                    Mais de <strong>1.340 mães</strong> já recuperaram sua paz
-                    em 30 dias
+                    Mais de <strong>1.540 mães</strong> já recuperaram sua paz
+                    em 15 dias
                   </span>
                 </p>
               </div>
@@ -275,7 +268,7 @@ function App() {
               {/* Imagem */}
               <figure className="order-1 md:order-2 md:w-1/2 flex justify-center">
                 <img
-                  src="/images/Capa-devocional-tea-30-400x500-1.webp"
+                  src="/images/first.jpg"
                   alt="Capa Devocional"
                   className="max-w-full h-auto rounded-lg shadow"
                 />
@@ -294,94 +287,88 @@ function App() {
                     <span className="text-red-600">exausta</span>.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    A rotina com seu filho quase não dá pausa — sua energia
-                    nunca chega a 100%.
+                    A rotina intensa não dá pausa — sua energia nunca parece ser
+                    suficiente.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Já investiu em terapias e métodos que prometeram{" "}
-                    <span className="text-red-600">milagres</span>.
+                    Sente culpa só de pensar em cuidar de você mesma.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Alguns ajudam, mas você ainda se sente perdida e
-                    sobrecarregada no dia a dia.
+                    Parece errado parar por alguns minutos quando seu filho
+                    precisa tanto de você.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Sente <span className="text-red-600">culpa</span> por pensar
-                    em cuidar de você.
+                    Carrega sua exaustão em silêncio.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Parece errado parar por 10 minutos quando seu filho precisa
-                    tanto de você.
+                    Poucos entendem o que você vive — e você segue no automático
+                    para não desmoronar.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Tem <span className="text-red-600">medo</span> do futuro do
-                    seu filho.
+                    Acredita que está falhando como mãe e como mulher de fé.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Nem nos momentos de oração você encontra a paz que procura.
+                    Ora, busca forças… mas ainda se sente perdida e sem direção.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Esconde sua <span className="text-red-600">exaustão</span>{" "}
-                    de todos.
+                    Já investiu em terapias e métodos que prometiam milagres.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Pouca gente entende o que você vive; você segue no
-                    automático para não desabar.
+                    Alguns ajudaram, mas no fundo você continua sobrecarregada
+                    no dia a dia.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Já tentou devocionais e guias, mas nada virou{" "}
-                    <span className="text-red-600">hábito</span>.
+                    Tem medo do futuro do seu filho.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Muita teoria, pouca prática guiada — e a vida continua
-                    corrida.
+                    Nem mesmo nas orações encontra toda a paz que deseja.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Sente que está{" "}
-                    <span className="text-red-600">falhando</span> como mãe e
-                    como mulher de fé.
+                    Já tentou guias e devocionais, mas nenhum virou prática
+                    constante.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Você ora, mas ainda se sente sem forças e sem direção.
+                    Muita teoria, pouca aplicação no seu cotidiano corrido.
                   </p>
                 </article>
 
                 <article className="p-5 bg-white rounded-lg text-left border border-gray-300">
                   <p className="font-semibold text-gray-900">
-                    Tenta <span className="text-red-600">controlar</span> tudo
-                    sozinha.
+                    Tenta controlar tudo sozinha.
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Cada crise do seu filho te desestabiliza e você sente que
-                    não tem um passo a passo.
+                    Cada crise desestabiliza seu coração, e você sente que não
+                    tem forças para dar o próximo passo.
                   </p>
                 </article>
               </div>
 
               <div className="p-6 bg-[#ebd2ae] text-center max-w-2xl mx-auto rounded-xl">
                 <p className="text-lg italic font-medium text-black">
-                  “Venham a mim, todos os que estão cansados e sobrecarregados,
-                  e eu lhes darei descanso.”
+                  “Ele fortalece o cansado e dá grande vigor ao que está sem
+                  forças... mas os que esperam no Senhor renovam as suas forças.
+                  Voam alto como águias; correm e não ficam exaustos, andam e
+                  não se cansam.”
                 </p>
-                <p className="text-sm mt-2 text-black/90">Mateus 11:28</p>
+                <p className="text-sm mt-2 text-black/90">Isaías 40:29-31</p>
               </div>
             </div>
             <section className="p-6 mt-5 w-full bg-[#ebd2ae] pt-10">
@@ -389,51 +376,54 @@ function App() {
                 {/* Texto e Lista */}
                 <div className="space-y-6 md:order-2">
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                    Como funciona o
-                    <span className="text-emerald-500"> Devocional SOS</span> na
-                    prática?
+                    Como funciona o{" "}
+                    <span className="text-emerald-500">
+                      {" "}
+                      Devocional Força de Mãe
+                    </span>{" "}
+                    na prática?
                   </h2>
                   <p className="text-lg text-gray-700">
-                    Em poucos minutos por dia, este devocional vai renovar sua
-                    fé, te ajudar a lidar com a culpa, o medo e a sobrecarga, e
-                    te lembrar: você é uma mãe incrível, escolhida por Deus para
-                    essa missão.
+                    Em apenas alguns minutos por dia, este devocional vai
+                    renovar sua fé, aliviar seu coração sobrecarregado e lembrar
+                    que você não está sozinha: você é uma mãe extraordinária,
+                    escolhida por Deus para esta jornada especial.
                   </p>
 
                   <ul className="space-y-4">
                     {[
                       {
-                        title: "Recupere sua conexão com Deus",
+                        title: "Restaure sua conexão com Deus",
                         description:
-                          "Mesmo nos dias em que sua fé parece frágil, você terá um espaço sagrado de reencontro.",
+                          "Mesmo nos dias em que sua fé parece pequena, encontre aqui um espaço seguro de reencontro e esperança.",
                       },
                       {
-                        title: "Encontre alívio emocional real",
+                        title: "Receba alívio emocional verdadeiro",
                         description:
-                          "Chega de sentir que está à beira do colapso — respire, ore e reencontre seu centro.",
+                          "Respire fundo. Neste devocional você encontrará paz e clareza quando o peso parecer insuportável.",
                       },
                       {
-                        title: "Reduza a culpa por cuidar de si",
+                        title: "Libere a culpa ao cuidar de si mesma",
                         description:
-                          "Você vai aprender que seu autocuidado é parte do cuidado com seu filho.",
+                          "Descubra que o autocuidado também é amor — e parte essencial do cuidado com seu filho.",
                       },
                       {
-                        title: "Sinta-se guiada e acolhida",
+                        title: "Sinta-se acolhida e guiada",
                         description:
-                          "Tenha clareza sobre como agir mesmo quando o caos parece dominar.",
+                          "Permita-se ser conduzida pela Palavra, mesmo quando as dúvidas e medos tentarem dominar.",
                       },
                       {
-                        title: "Reconstrua sua força interior",
+                        title: "Recarregue sua força interior",
                         description:
-                          "Em cada reflexão, uma dose de paz, fé e coragem para continuar.",
+                          "Cada reflexão será uma dose de fé, coragem e paz para continuar sua caminhada com confiança.",
                       },
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <span className="text-emerald-500 text-xl mt-1">
-                          💚
-                        </span>
                         <div>
                           <p className="font-semibold text-gray-900">
+                            <span className="text-emerald-500 text-xl mt-1">
+                              💚
+                            </span>{" "}
                             {item.title}
                           </p>
                           <p className="text-sm text-gray-700 mt-1">
@@ -452,9 +442,6 @@ function App() {
                     >
                       10 MINUTOS DE PAZ: RENOVE-SE HOJE!
                     </a>
-                    <p className="text-xs text-gray-700 mt-4">
-                      Acesso imediato • 7 dias de garantia
-                    </p>
                   </div>
                 </div>
 
@@ -462,8 +449,8 @@ function App() {
                 <figure className="flex justify-center md:order-1">
                   <img
                     loading="lazy"
-                    src="https://webessencial.com/wp-content/uploads/2025/09/exemplo-na-pratica-568x710-1.webp"
-                    alt="Exemplo na prática: Versículo, Contexto, Ação, Oração e Espaço para escrever no Devocional SOS"
+                    src="/images/exemplo-na-pratica-568x710-1.webp"
+                    alt="Exemplo na prática: Versículo, Contexto, Ação, Oração e Espaço para escrever no Devocional Força de Mãe"
                     className="rounded-xl shadow-lg w-full max-w-[560px] aspect-[4/5] object-cover"
                   />
                 </figure>
@@ -472,9 +459,10 @@ function App() {
               {/* Destaque final */}
               <div className="p-6 text-center max-w-2xl mx-auto rounded-xl mt-8">
                 <p className="text-lg italic font-medium text-black">
-                  “Sabemos que seu tempo é escasso, por isso cada devocional foi
-                  feito para caber entre uma crise e outra, entre a terapia e o
-                  jantar. Em 5 minutos, você encontra alívio, paz e direção.”
+                  “Sabemos que sua rotina é intensa. Por isso, cada devocional
+                  foi criado para caber nos intervalos da vida real — entre uma
+                  crise e outra, entre a terapia e o jantar. Em apenas 5
+                  minutos, você encontra alívio, paz e direção.”
                 </p>
               </div>
             </section>
@@ -495,27 +483,27 @@ function App() {
               {
                 emoji: "⚠️",
                 title: "Ferramentas ",
-                highlight: "fragmentadas",
+                highlight: "soltas",
                 description:
-                  "Cada coisa ajuda um pouco, mas não conversa entre si.",
+                  "Você até encontra ajuda aqui e ali, mas nada conversa entre si.",
                 missing:
                   "O que falta: integrar fé + prática guiada + contexto TEA.",
               },
               {
                 emoji: "📱",
-                title: "Grupos e redes viram só ",
+                title: "Grupos que viram só ",
                 highlight: "desabafo",
                 description:
-                  "Acolhem, mas raramente entregam um passo a passo aplicável.",
+                  "São acolhedores, mas raramente trazem um passo a passo aplicável.",
                 missing:
-                  "O que falta: um roteiro simples para usar no meio do caos.",
+                  "O que falta: um roteiro simples para usar em meio ao caos.",
               },
               {
                 emoji: "📖",
                 title: "Devocionais ",
                 highlight: "genéricos",
                 description:
-                  "Bonitos, mas não falam de crises, birras e rotina imprevisível.",
+                  "Bonitos, mas que não falam de crises, birras ou rotina imprevisível.",
                 missing:
                   "O que falta: conteúdo feito para mães de crianças com TEA.",
               },
@@ -523,35 +511,44 @@ function App() {
                 emoji: "⏱️",
                 title: "Falta de ",
                 highlight: "constância",
-                description:
-                  "Sem um formato rápido, é difícil manter o hábito.",
+                description: "Sem um formato rápido, o hábito não se sustenta.",
                 missing:
-                  "O que falta: rotina de 10 minutos com começo–meio–fim.",
+                  "O que falta: uma rotina curta de 10 minutos que comece e termine.",
               },
               {
-                emoji: "🧭",
-                title: "Aconselhamento ",
-                highlight: "amplo",
+                emoji: "💬",
+                title: "Conselhos ",
+                highlight: "bem-intencionados",
                 description:
-                  "Bem-intencionado, mas nem sempre cabe na sua realidade.",
+                  "São válidos, mas muitas vezes não cabem na sua realidade.",
                 missing:
                   "O que falta: práticas específicas para momentos reais.",
               },
               {
-                emoji: "🧠",
-                title: "Cuidado emocional sem a sua ",
-                highlight: "fé",
-                description:
-                  "Terapia pode ajudar muito, mas nem sempre integra espiritualidade.",
-                missing: "O que falta: unir fé às ferramentas de regulação.",
+                emoji: "💔",
+                title: "Cuidado sem ",
+                highlight: "espiritualidade",
+                description: "A terapia ajuda, mas nem sempre inclui sua fé.",
+                missing:
+                  "O que falta: unir fé às ferramentas de regulação emocional.",
               },
               {
-                emoji: "🧩",
+                emoji: "🔄",
                 title: "Rotina ",
                 highlight: "imprevisível",
-                description: "Quando tudo muda, o plano do dia cai por terra.",
+                description:
+                  "Quando tudo muda, seu plano de dia cai por terra.",
                 missing:
-                  "O que falta: um Plano B de 3 minutos para dias caóticos.",
+                  "O que falta: um Plano B de 3 minutos para crises repentinas.",
+              },
+              {
+                emoji: "❌",
+                title: "Tentar dar ",
+                highlight: "conta sozinha ",
+                description:
+                  "Cada crise do seu filho te desestabiliza — e você sente que não tem direção.",
+                missing:
+                  "O que falta: um passo a passo claro para não carregar tudo sozinha.",
               },
             ].map((item, index) => (
               <article
@@ -577,26 +574,15 @@ function App() {
                 </div>
               </article>
             ))}
-
-            {/* Último card mais simples */}
-            <article className="p-5 bg-white rounded-xl text-left border border-gray-300">
-              <p className="font-semibold text-gray-900">
-                Tenta <span className="text-red-600">controlar</span> tudo
-                sozinha.
-              </p>
-              <p className="text-sm text-gray-700 mt-1">
-                Cada crise do seu filho te desestabiliza e você sente que não
-                tem um passo a passo.
-              </p>
-            </article>
           </div>
 
           {/* Destaque final */}
           <div className="p-6 bg-[#ebd2ae] text-center max-w-2xl mx-auto rounded-xl mt-8">
             <p className="text-lg italic font-medium text-black">
-              O <strong>Devocional SOS</strong> integra{" "}
-              <strong>fé + prática guiada + acolhimento</strong> em apenas{" "}
-              <strong>10 minutos</strong> por dia.
+              <strong>
+                Devocional Força de Mãe: fé renovada, passos práticos e
+                acolhimento em só 10 minutos por dia.
+              </strong>
             </p>
           </div>
         </div>
@@ -656,8 +642,8 @@ function App() {
                 ))}
               </ul>
               <div className="mt-4 text-xs text-gray-700">
-                Já ajudou <strong>1.340+ mães</strong> a sentirem paz e clareza
-                em 30 dias.
+                Já ajudou <strong>1.540+ mães</strong> a sentirem paz e clareza
+                em 15 dias.
               </div>
             </article>
           </div>
@@ -669,12 +655,14 @@ function App() {
           {/* Header */}
           <header className="text-center space-y-3">
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
-              Tudo o que você recebe ao entrar no{" "}
-              <span className="text-emerald-500">Devocional SOS</span>
+              Tudo o que você recebe ao entrar no
+              <span className="text-emerald-500">
+                {" "}
+                Devocional Força de Mãe:
+              </span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Um kit completo para restaurar sua fé, sua paz e sua força — mesmo
-              com a rotina imprevisível da maternidade atípica.
+              Seu kit completo de apoio e fé na maternidade atípica
             </p>
           </header>
 
@@ -682,20 +670,20 @@ function App() {
           <div className="grid gap-6 md:grid-cols-4">
             {[
               {
-                title: "Devocional SOS",
-                img: "https://webessencial.com/wp-content/uploads/2025/09/Kit-devocional-sos-escuro-200x250-1.webp",
+                title: "Devocional Força de Mãe",
+                img: "/images/3-products.jpg",
               },
               {
                 title: "Checklist de Autocuidado",
-                img: "https://webessencial.com/wp-content/uploads/2025/09/Capa-Checklist-de-Autocuidado-Realista-para-Maes-Atipicas-200x250-1.webp",
+                img: "/images/auto.jpg",
               },
               {
                 title: "Planner Emocional",
-                img: "https://webessencial.com/wp-content/uploads/2025/09/planner-200x250-1.webp",
+                img: "/images/planner-200x250-1.webp",
               },
               {
                 title: "Guia de Crises",
-                img: "https://webessencial.com/wp-content/uploads/2025/09/Capa-Guia-de-Crises-Mae-em-Alerta-200x250-1.webp",
+                img: "/images/crises.jpg",
               },
             ].map((item, i) => (
               <article
@@ -724,7 +712,8 @@ function App() {
                 {[
                   {
                     icon: "📘",
-                    title: "Devocional SOS “30 Dias de Paz no Caos” (PDF)",
+                    title:
+                      "Devocional Força de Mãe “15 Dias de Paz no Caos” (PDF)",
                     desc: "Versículo, contexto, ação guiada, oração e espaço para escrever — cabe nos seus 10 minutos.",
                   },
                   {
@@ -932,16 +921,13 @@ function App() {
           </div>
 
           {/* CTA */}
-          <div className="pt-4">
+          <div className="pt-4 pb-5">
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
               className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
             >
               NÃO PERCA! SEU DEVOCIONAL COMEÇA AGORA!
             </a>
-            <p className="text-xs text-gray-600 mt-2 pt-2 pb-4">
-              Acesso imediato • 7 dias de garantia
-            </p>
           </div>
         </div>
       </section>
@@ -949,9 +935,9 @@ function App() {
       <section id="garantia" className="section-container bg-white py-10 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="flex items-center justify-center gap-3">
-            <span className="text-3xl">🛡️</span>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Garantia Incondicional de 7 Dias
+              <span className="text-3xl">🛡️</span> Garantia Incondicional de 7
+              Dias
             </h2>
           </div>
 
@@ -969,14 +955,6 @@ function App() {
               ou terapêutico.
             </p>
           </div>
-
-          <a
-            href="https://pay.cakto.com.br/37z4v27_589100"
-            className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
-          >
-            MENOS EXAUSTÃO, MAIS FÉ: COMECE HOJE!
-          </a>
-          <p className="text-xs text-gray-500 mt-2">7 dias de garantia</p>
         </div>
       </section>
 
@@ -1015,7 +993,7 @@ function App() {
             <article className="p-4 md:p-6 bg-white rounded-xl border border-gray-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <img
-                  src="https://webessencial.com/wp-content/uploads/2025/09/Patricia-80x80-1.webp"
+                  src="/images/Patricia-80x80-1.webp"
                   alt="Foto de Tatiane M."
                   className="w-16 h-16 rounded-full"
                 />
@@ -1053,7 +1031,7 @@ function App() {
             <article className="p-4 md:p-6 bg-white rounded-xl border border-gray-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <img
-                  src="https://webessencial.com/wp-content/uploads/2025/09/Juliana-Costa-80x80-1.webp"
+                  src="/images/Juliana-Costa-80x80-1.webp"
                   alt="Foto de Renata S."
                   className="w-16 h-16 rounded-full"
                 />
@@ -1090,7 +1068,7 @@ function App() {
             <article className="p-4 md:p-6 bg-white rounded-xl border border-gray-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <img
-                  src="https://webessencial.com/wp-content/uploads/2025/09/Ana-Clara-80x80-1.webp"
+                  src="/images/Ana-Clara-80x80-1.webp"
                   alt="Foto de Elisângela R."
                   className="w-16 h-16 rounded-full"
                 />
@@ -1128,7 +1106,7 @@ function App() {
             <article className="p-4 md:p-6 bg-white rounded-xl border border-gray-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <img
-                  src="https://webessencial.com/wp-content/uploads/2025/09/Carmen-Rodriguez-80x80-1.webp"
+                  src="/images/Carmen-Rodriguez-80x80-1.webp"
                   alt="Foto de Carla T."
                   className="w-16 h-16 rounded-full"
                 />
@@ -1165,7 +1143,7 @@ function App() {
             <article className="p-4 md:p-6 bg-white rounded-xl border border-gray-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <img
-                  src="https://webessencial.com/wp-content/uploads/2025/09/Maria-Jose-Vega-80x80-1.webp"
+                  src="/images/Maria-Jose-Vega-80x80-1.webp"
                   alt="Foto de Vanessa D."
                   className="w-16 h-16 rounded-full"
                 />
@@ -1202,7 +1180,7 @@ function App() {
             <article className="p-4 md:p-6 bg-white rounded-xl border border-gray-300">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <img
-                  src="https://webessencial.com/wp-content/uploads/2025/09/Sofia-Hernandez-80x80-1.webp"
+                  src="/images/Sofia-Hernandez-80x80-1.webp"
                   alt="Foto de Luciana B."
                   className="w-16 h-16 rounded-full"
                 />
@@ -1236,16 +1214,13 @@ function App() {
             </article>
           </div>
 
-          <div className="pt-2">
+          <div className="pt-2 pb-5">
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
               className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
             >
               NÃO PERCA! SEU DEVOCIONAL COMEÇA AGORA!
             </a>
-            <p className="text-xs text-gray-500 mt-4 pb-5">
-              Acesso imediato • 7 dias de garantia
-            </p>
           </div>
         </div>
       </section>
@@ -1587,25 +1562,31 @@ function App() {
       <section id="ps" className="section-container bg-peaceful py-10 px-5">
         <div className="text-center space-y-8 max-w-3xl mx-auto">
           <header className="space-y-3">
-            <h3 className="text-xl md:text-2xl font-bold text-foreground">
-              P.S.
-            </h3>
-            <p className="text-foreground leading-relaxed">
-              Você merece paz. Você merece um momento só seu. Você merece se
-              reconectar com Deus <strong>sem culpa</strong>.
+            <p className="text-xl text-foreground leading-relaxed">
+              ✨ Você merece paz.
             </p>
             <p className="text-foreground leading-relaxed">
-              O <strong>Devocional SOS</strong> foi feito para você que ama além
-              dos limites, mas às vezes esquece de amar a si mesma. Não é sobre
-              perfeição: é sobre dar <strong>um passo de paz por vez</strong>.
+              Você merece um momento só seu. Você merece se reconectar com Deus
+              — sem pressa, sem culpa.
             </p>
             <p className="text-foreground leading-relaxed">
-              Sua exaustão não é fracasso — é um pedido de cuidado. Se tudo que
-              você tiver hoje forem <strong>3 minutos</strong>, eles já podem
-              ser o recomeço.
+              O Devocional Força de Mãe foi criado para você, que dá tudo de si
+              todos os dias, mas muitas vezes esquece de cuidar do próprio
+              coração. Não se trata de perfeição, mas de passos simples rumo à
+              paz.
             </p>
-            <p className="font-semibold text-foreground">
-              Não espere o esgotamento total para agir.
+            <p className="text-xl text-foreground leading-relaxed">
+              💛 Sua exaustão não é sinal de fraqueza
+            </p>
+
+            <p className=" text-foreground">
+              — é um lembrete de que você também precisa de cuidado. Mesmo que
+              hoje você só tenha 3 minutos, eles já podem ser o início de um
+              recomeço.
+            </p>
+            <p className=" text-foreground">
+              Não espere chegar ao limite. Escolha agora respirar, descansar e
+              se reencontrar em Deus.
             </p>
           </header>
 
@@ -1622,30 +1603,19 @@ function App() {
 
       <footer className="py-8 px-4 bg-gray-800 text-white">
         <div className="max-w-6xl mx-auto text-center space-y-4">
-          <div className="flex items-center justify-center gap-2">
-            <svg
-              className="w-6 h-6 text-pink-400"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-            </svg>
-            <span className="text-xl font-semibold">Devocional SOS</span>
-          </div>
-
           <p className="text-gray-400">
             Um devocional feito para você encontrar paz e reconexão com Deus.
           </p>
 
           <p className="text-sm text-gray-500">
-            © 2025 Devocional SOS. Todos os direitos reservados.
+            © 2025 Devocional Força de Mãe. Todos os direitos reservados.
             <br />
             Este material é de apoio emocional e espiritual e não substitui
             acompanhamento médico, psicológico ou terapêutico.
           </p>
         </div>
       </footer>
-      <div className="relative min-h-screen bg-gray-50">
+      <div>
         {/* Conteúdo principal */}
 
         {/* Toasts */}
@@ -1662,13 +1632,6 @@ function App() {
                   className="flex items-center gap-4 p-4 bg-white border rounded-lg shadow-lg animate-slide-in"
                   role="status"
                 >
-                  <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-lg">
-                    <img
-                      src={toast.image}
-                      alt="Devocional SOS"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
                   <div className="flex-1">
                     <p className="font-semibold text-gray-900">
                       {toast.name} de {toast.city}{" "}
