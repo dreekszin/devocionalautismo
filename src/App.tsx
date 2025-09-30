@@ -1,6 +1,165 @@
 import { useEffect, useState } from "react";
 
+type Toast = {
+  id: number;
+  name: string;
+  city: string;
+  product: string;
+  time: string;
+  image: string;
+};
+
 function App() {
+  const toasts: Toast[] = [
+    {
+      id: 1,
+      name: "Yasmin",
+      city: "Vitória-ES",
+      product: "Devocional SOS",
+      time: "há 1 hora",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 2,
+      name: "Patrícia",
+      city: "Rio de Janeiro-RJ",
+      product: "Checklist de Autocuidado",
+      time: "há 2 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 3,
+      name: "Ana",
+      city: "São Paulo-SP",
+      product: "Planner Emocional",
+      time: "há 3 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 4,
+      name: "Juliana",
+      city: "Belo Horizonte-MG",
+      product: "Guia de Crises",
+      time: "há 4 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 5,
+      name: "Mariana",
+      city: "Curitiba-PR",
+      product: "Devocional SOS",
+      time: "há 5 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 6,
+      name: "Carla",
+      city: "Fortaleza-CE",
+      product: "Checklist de Autocuidado",
+      time: "há 6 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 7,
+      name: "Vanessa",
+      city: "Recife-PE",
+      product: "Planner Emocional",
+      time: "há 7 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 8,
+      name: "Fernanda",
+      city: "Porto Alegre-RS",
+      product: "Guia de Crises",
+      time: "há 8 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 9,
+      name: "Luciana",
+      city: "Salvador-BA",
+      product: "Devocional SOS",
+      time: "há 9 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 10,
+      name: "Patrícia",
+      city: "Manaus-AM",
+      product: "Checklist de Autocuidado",
+      time: "há 10 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 11,
+      name: "Renata",
+      city: "Goiânia-GO",
+      product: "Planner Emocional",
+      time: "há 11 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 12,
+      name: "Sofia",
+      city: "Florianópolis-SC",
+      product: "Guia de Crises",
+      time: "há 12 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 13,
+      name: "Camila",
+      city: "Natal-RN",
+      product: "Devocional SOS",
+      time: "há 13 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 14,
+      name: "Aline",
+      city: "Maceió-AL",
+      product: "Checklist de Autocuidado",
+      time: "há 14 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+    {
+      id: 15,
+      name: "Isabela",
+      city: "Belém-PA",
+      product: "Planner Emocional",
+      time: "há 15 horas",
+      image:
+        "https://webessencial.com/wp-content/uploads/2025/09/Capa-devocional-tea-30.webp",
+    },
+  ];
+
+  const [currentToast, setCurrentToast] = useState<number | null>(null);
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setCurrentToast(toasts[index].id);
+      index = (index + 1) % toasts.length;
+    }, 5000); // muda o toast a cada 5s
+
+    return () => clearInterval(interval);
+  }, []);
+
   interface TimeLeft {
     dias: number;
     horas: number;
@@ -669,15 +828,17 @@ function App() {
                 R$ 275
               </p>
             </div>
-            <div className="p-6 rounded-2xl border border-emerald-300 bg-emerald-500 text-center">
-              <p className="text-sm uppercase tracking-wide text-emerald-100">
-                Hoje
-              </p>
-              <p className="text-3xl md:text-4xl font-extrabold text-emerald-100">
-                R$ 27,90
-              </p>
-              <p className="text-xs text-gray-100 mt-1">ou 3x de R$ 10,59</p>
-            </div>
+            <a href="https://pay.cakto.com.br/37z4v27_589100">
+              <div className="p-6 rounded-2xl border border-emerald-300 bg-emerald-500 text-center">
+                <p className="text-sm uppercase tracking-wide text-emerald-100">
+                  Hoje
+                </p>
+                <p className="text-3xl md:text-4xl font-extrabold text-emerald-100">
+                  R$ 27,90
+                </p>
+                <p className="text-xs text-gray-100 mt-1">ou 3x de R$ 10,59</p>
+              </div>
+            </a>
             <div className="p-6 rounded-2xl border border-red-300 bg-red-100 text-center">
               <p className="text-sm uppercase tracking-wide text-red-600">
                 Após o prazo
@@ -1484,6 +1645,50 @@ function App() {
           </p>
         </div>
       </footer>
+      <div className="relative min-h-screen bg-gray-50">
+        {/* Conteúdo principal */}
+
+        {/* Toasts */}
+        {toasts.map(
+          (toast) =>
+            currentToast === toast.id && (
+              <div
+                key={toast.id}
+                aria-live="polite"
+                aria-atomic="true"
+                className="fixed bottom-6 right-6 z-50 flex flex-col gap-2"
+              >
+                <div
+                  className="flex items-center gap-4 p-4 bg-white border rounded-lg shadow-lg animate-slide-in"
+                  role="status"
+                >
+                  <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-lg">
+                    <img
+                      src={toast.image}
+                      alt="Devocional SOS"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <p className="font-semibold text-gray-900">
+                      {toast.name} de {toast.city}{" "}
+                      <span
+                        className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-semibold text-green-700 bg-green-100 rounded"
+                        aria-label="Compra verificada"
+                      >
+                        ✔ Verificado
+                      </span>
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      comprou <span className="mx-1">•</span> {toast.product}
+                    </p>
+                    <p className="text-xs text-gray-400 mt-1">{toast.time}</p>
+                  </div>
+                </div>
+              </div>
+            )
+        )}
+      </div>
     </div>
   );
 }
