@@ -66,49 +66,9 @@ function App() {
                   está com você.
                 </p>
 
-                <section>
-                  <div className="p-2 bg-gray-200 rounded-md mt-10 flex flex-wrap items-center justify-center gap-3">
-                    {/* Avatares */}
-                    <div className="flex -space-x-2">
-                      <img
-                        src="https://webessencial.com/wp-content/uploads/2025/09/Patricia-80x80-1.webp"
-                        alt="Patrícia, 39 anos"
-                        className="w-8 h-8 rounded-full border-2 border-white"
-                      />
-                      <img
-                        src="https://webessencial.com/wp-content/uploads/2025/09/Juliana-Costa-80x80-1.webp"
-                        alt="Juliana Costa, 44 anos"
-                        className="w-8 h-8 rounded-full border-2 border-white"
-                      />
-                      <img
-                        src="https://webessencial.com/wp-content/uploads/2025/09/Carla-Santos-80x80-1.webp"
-                        alt="Carla Santos, 38 anos"
-                        className="w-8 h-8 rounded-full border-2 border-white"
-                      />
-                    </div>
-
-                    {/* Estrelas */}
-                    <div
-                      className="flex items-center gap-1 text-yellow-400"
-                      aria-label="Avaliação média 4.9 de 5"
-                    >
-                      <span className="text-lg">★</span>
-                      <span className="text-lg">★</span>
-                      <span className="text-lg">★</span>
-                      <span className="text-lg">★</span>
-                      <span className="text-lg">★</span>
-                    </div>
-
-                    {/* Texto */}
-                    <span className="text-sm text-gray-600">
-                      4,9/5 • <strong>+572</strong> avaliações verificadas
-                    </span>
-                  </div>
-                </section>
-
                 <div className="flex justify-center pt-4 max-w-xl">
                   <a
-                    href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic"
+                    href="https://pay.cakto.com.br/37z4v27_589100"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full max-w-xl px-6 py-4 rounded-full text-white bg-emerald-500 font-extrabold text-base md:text-lg shadow-lg text-center"
@@ -328,7 +288,7 @@ function App() {
                   {/* Botão de ação */}
                   <div className="pt-2 pb-5">
                     <a
-                      href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic"
+                      href="https://pay.cakto.com.br/37z4v27_589100"
                       className="w-full sm:w-auto px-6 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg flex justify-center text-center"
                     >
                       10 MINUTOS DE PAZ: RENOVE-SE HOJE!
@@ -742,7 +702,7 @@ function App() {
               <div className="flex items-center gap-2">💳 Cartão • Pix</div>
             </div>
             <a
-              href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+              href="https://pay.cakto.com.br/37z4v27_589100"
               className="inline-flex items-center justify-center w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lgbg-emerald-600 transition-colors flex-wrap text-center"
             >
               QUERO TUDO ISSO POR R$27,90 →
@@ -813,7 +773,7 @@ function App() {
           {/* CTA */}
           <div className="pt-4">
             <a
-              href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+              href="https://pay.cakto.com.br/37z4v27_589100"
               className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
             >
               NÃO PERCA! SEU DEVOCIONAL COMEÇA AGORA!
@@ -850,7 +810,7 @@ function App() {
           </div>
 
           <a
-            href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+            href="https://pay.cakto.com.br/37z4v27_589100"
             className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
           >
             MENOS EXAUSTÃO, MAIS FÉ: COMECE HOJE!
@@ -1117,7 +1077,7 @@ function App() {
 
           <div className="pt-2">
             <a
-              href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+              href="https://pay.cakto.com.br/37z4v27_589100"
               className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-500 rounded-full shadow-lg transition-colors flex justify-center flex-wrap text-center"
             >
               NÃO PERCA! SEU DEVOCIONAL COMEÇA AGORA!
@@ -1385,7 +1345,7 @@ function App() {
 
           <div className="text-center pt-6">
             <a
-              href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+              href="https://pay.cakto.com.br/37z4v27_589100"
               className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-primary rounded-full shadow-lg bg-emerald-600 transition-colors flex justify-center flex-wrap text-center"
             >
               PRONTO(A) PARA COMEÇAR HOJE →
@@ -1452,7 +1412,7 @@ function App() {
           </div>
 
           <a
-            href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+            href="https://pay.cakto.com.br/37z4v27_589100"
             className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-emerald-600 rounded-full shadow-lg hover:bg-emerald-700 transition-colors flex justify-center flex-wrap text-center"
           >
             QUERO MEUS 10 MINUTOS DE PAZ AGORA →
@@ -1463,7 +1423,7 @@ function App() {
         </div>
       </section>
 
-      <section id="ps" className="section-container bg-peaceful py-10">
+      <section id="ps" className="section-container bg-peaceful py-10 px-5">
         <div className="text-center space-y-8 max-w-3xl mx-auto">
           <header className="space-y-3">
             <h3 className="text-xl md:text-2xl font-bold text-foreground">
@@ -1490,7 +1450,7 @@ function App() {
 
           <div className="space-y-2">
             <a
-              href="https://pay.kiwify.com.br/ErzlTzg?utm_source=organic&xcod=organic&fbclid=IwY2xjawNHhAdleHRuA2FlbQIxMABicmlkETE0cncwcTZmeElmU1FJMjRWAR54Df23voXrAwpK6AgR5YCIWHfTLyhuEWimFwx1Ps-IOz5BOAwYTpcG9-yUgQ_aem_gNao8zMHkjIbFzryIoYv4w"
+              href="https://pay.cakto.com.br/37z4v27_589100"
               className="w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-primary rounded-full shadow-lg bg-emerald-600 transition-colors flex justify-center text-center"
             >
               ESVAZIE A CULPA: UM DEVOCIONAL PARA VOCÊ!
