@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-muted-foreground {
+  color: #342f2f;
+}
+
+.testi-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px !important;
+  object-fit: cover;
+  display: inline-block;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ebd2ae !important;
+}
