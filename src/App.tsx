@@ -709,7 +709,7 @@ function App() {
       </section>
       <section id="preco" ref={precoRef} className="bg-[#f5f1ea] py-12 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between">
+          <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between border-4 border-[#0B6856]">
             <div>
               <h2 className="text-2xl font-bold text-[#0B6856] mb-2 text-center">
                 PLANO BÁSICO
@@ -718,7 +718,7 @@ function App() {
                 De <s>R$147,00</s> por apenas
               </p>
               <p className="text-5xl font-extrabold text-[#0B6856] my-4 text-center ">
-                R$10
+                R$9,90
               </p>
 
               <ul className="space-y-2 text-gray-700">
