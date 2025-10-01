@@ -639,7 +639,7 @@ function App() {
                   "Integra fé + prática guiada + realidade TEA (sem culpas).",
                   "Conteúdo específico para crises, culpa, sobrecarga e birras.",
                   "Plano B de 3 minutos para dias caóticos.",
-                  "Acolhimento real: devocional + áudios + comunidade de apoio.",
+                  "Acolhimento real: devocional + áudios.",
                 ].map((text, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <span className="text-[#0B6856] text-lg mt-0.5">✅</span>
@@ -1201,9 +1201,8 @@ function App() {
               <p className="mt-3 text-sm md:text-base leading-6 text-gray-500">
                 Assim que o pagamento é confirmado, você recebe por e-mail o
                 link do <strong>PDF interativo</strong> (usar no celular/Tablet
-                ou imprimir), os <strong>áudios do devocional</strong>, acesso à{" "}
-                <strong>comunidade SOS</strong> e seus <strong>bônus</strong>. É
-                imediato.
+                ou imprimir), os <strong>áudios do devocional</strong> e seus{" "}
+                <strong>bônus</strong>. É imediato.
               </p>
             </details>
 
@@ -1483,10 +1482,6 @@ function App() {
               <li className="flex items-center gap-2">
                 <span className="text-destructive">❌</span>
                 Bônus exclusivos podem sair da oferta
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-destructive">❌</span>
-                Acesso à comunidade pode fechar temporariamente
               </li>
             </ul>
             <p className="text-xs text-muted-foreground">
