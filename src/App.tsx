@@ -1420,9 +1420,8 @@ function App() {
                 </svg>
               </summary>
               <p className="mt-3 text-sm md:text-base leading-6 text-gray-500">
-                <strong>Cartão</strong> (com parcelamento), <strong>Pix</strong>{" "}
-                e <strong>Boleto</strong>. O acesso é liberado logo após a
-                confirmação do pagamento.
+                <strong>Cartão</strong> (com parcelamento), <strong>Pix</strong>
+                . O acesso é liberado logo após a confirmação do pagamento.
               </p>
             </details>
           </div>
