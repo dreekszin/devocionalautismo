@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 type Toast = {
   id: number;
@@ -10,6 +11,12 @@ type Toast = {
 };
 
 function App() {
+  const precoRef = useRef<HTMLElement | null>(null);
+
+  const scrollToPreco = () => {
+    precoRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const toasts: Toast[] = [
     {
       id: 1,
@@ -219,16 +226,15 @@ function App() {
                 </p>
 
                 <div className="flex justify-center pt-4 max-w-xl">
-                  <a
-                    href="https://pay.cakto.com.br/37z4v27_589100"
-                    target="_blank"
+                  <button
+                    onClick={scrollToPreco}
                     rel="noopener noreferrer"
                     className="w-full max-w-xl px-6 py-4 rounded-full text-white bg-[#0B6856] font-extrabold text-base md:text-lg shadow-lg text-center"
                     aria-label="Comprar o devocional Esvazie a Culpa"
                     title="Esvazie a Culpa: Um Devocional para Você"
                   >
                     ESVAZIE A CULPA: UM DEVOCIONAL PARA VOCÊ!
-                  </a>
+                  </button>
                 </div>
 
                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-2 text-xs text-gray-600">
@@ -436,12 +442,12 @@ function App() {
 
                   {/* Botão de ação */}
                   <div className="pt-2 pb-5">
-                    <a
-                      href="https://pay.cakto.com.br/37z4v27_589100"
+                    <button
+                      onClick={scrollToPreco}
                       className="w-full sm:w-auto px-6 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lg flex justify-center text-center"
                     >
                       10 MINUTOS DE PAZ: RENOVE-SE HOJE!
-                    </a>
+                    </button>
                   </div>
                 </div>
 
@@ -699,164 +705,110 @@ function App() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+      <section id="preco" ref={precoRef} className="bg-[#f5f1ea] py-12 px-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <h2 className="text-2xl font-bold text-[#0B6856] mb-2 text-center">
+                PLANO BÁSICO
+              </h2>
+              <p className="text-gray-700 text-center">
+                De <s>R$147,00</s> por apenas
+              </p>
+              <p className="text-5xl font-extrabold text-[#0B6856] my-4 text-center ">
+                R$10
+              </p>
 
-          {/* Kit principal e bônus */}
-          <div className="grid gap-6 md:grid-cols-2">
-            {/* Kit principal */}
-            <article className="p-6 rounded-2xl border border-gray-300 bg-gray-100 space-y-4">
-              <h3 className="text-xl font-bold text-gray-900">Kit principal</h3>
-              <ul className="space-y-3 text-sm leading-6">
-                {[
-                  {
-                    icon: "📘",
-                    title:
-                      "Devocional Força de Mãe “15 Dias de Paz no Caos” (PDF)",
-                    desc: "Versículo, contexto, ação guiada, oração e espaço para escrever — cabe nos seus 10 minutos.",
-                  },
-                  {
-                    icon: "📝",
-                    title: "Planner Emocional (imprimível)",
-                    desc: "Registre gatilhos, vitórias e o que funcionou — mais clareza, menos culpa.",
-                  },
-                  {
-                    icon: "✅",
-                    title: "Checklist de Autocuidado Realista",
-                    desc: "Micro-hábitos possíveis para dias bons e dias difíceis.",
-                  },
-                  {
-                    icon: "🚨",
-                    title: "Guia de Crises “Mãe em Alerta”",
-                    desc: "Passo a passo rápido para momentos de sobrecarga e crises do seu filho.",
-                  },
-                ].map((item, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span className="text-[#0B6856] text-xl mt-0.5">
-                      {item.icon}
-                    </span>
-                    <div>
-                      <p className="font-semibold text-gray-900">
-                        {item.title}
-                      </p>
-                      <p className="text-gray-600">{item.desc}</p>
-                    </div>
-                  </li>
-                ))}
+              <ul className="space-y-2 text-gray-700">
+                <li>
+                  ✔️ Curso <span className="italic">Força de Mãe</span>
+                </li>
+                <li>✔️ 6 meses de acesso</li>
               </ul>
-            </article>
+            </div>
 
-            {/* Bônus inclusos */}
-            <article className="p-6 rounded-2xl border border-gray-300 bg-gray-100 space-y-5">
-              <h3 className="text-xl font-bold text-gray-900">
-                Bônus inclusos (por tempo limitado)
+            <Link
+              to={"/oferta"}
+              className="mt-6 bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-lg font-bold transition"
+            >
+              QUERO ESSA OPÇÃO!
+            </Link>
+          </div>
+
+          <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between border-4 border-[#0B6856]">
+            <div>
+              <h2 className="text-2xl font-bold text-[#0B6856] text-center">
+                PLANO COMPLETO
+                <br /> <span className="font-normal">Super Oferta</span>
+              </h2>
+              <p className="text-[#0B6856] font-semibold text-center">
+                (Melhor Negócio)
+              </p>
+
+              <h3 className="font-bold text-lg text-[#0B6856] mt-4">
+                Inclui tudo do Plano Básico:
               </h3>
-              <ul className="space-y-3 text-sm leading-6">
-                {[
-                  {
-                    icon: "🎯",
-                    title: "Guia de Orações de Uma Mãe Atípica",
-                    desc: "Quando faltarem forças e palavras, você terá um roteiro de oração.",
-                  },
-                  {
-                    icon: "🃏",
-                    title: "Cartões de Fé para Dias Tempestuosos",
-                    desc: "Versos e frases bíblicas para imprimir ou salvar no celular.",
-                  },
-                  {
-                    icon: "💖",
-                    title: "Diário da Gratidão Atípica",
-                    desc: "Uma folha simples pra anotar 3 coisas boas por dia — mesmo nos dias difíceis.",
-                  },
-                ].map((item, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span className="text-[#0B6856] text-xl mt-0.5">
-                      {item.icon}
-                    </span>
-                    <div>
-                      <p className="font-semibold text-gray-900">
-                        {item.title}
-                      </p>
-                      <p className="text-gray-600">{item.desc}</p>
-                    </div>
-                  </li>
-                ))}
+              <ul className="space-y-2 text-gray-700 list-none">
+                <li>✔️ Devocional Força de Mãe – 15 Dias de Paz no Caos</li>
+                <li>✔️ Checklist de Autocuidado Realista</li>
+                <li>✔️ Planner Emocional</li>
               </ul>
-              {/* Sub-cards de formatos e suporte */}
-              <div className="grid md:grid-cols-2 gap-4 pt-2">
-                <div className="p-4 rounded-xl bg-gray-200">
-                  <p className="text-sm font-semibold text-gray-900">
-                    Formatos & Acesso
-                  </p>
-                  <ul className="mt-2 space-y-1 text-xs text-gray-600">
-                    <li>• PDF otimizado p/ celular e imprimível</li>
-                    <li>• Download para usar offline</li>
-                  </ul>
-                </div>
-                <div className="p-4 rounded-xl bg-gray-200">
-                  <p className="text-sm font-semibold text-gray-900">
-                    Suporte & Garantia
-                  </p>
-                  <ul className="mt-2 space-y-1 text-xs text-gray-600">
-                    <li>• Plano B de 3 minutos</li>
-                    <li>• Garantia incondicional de 7 dias</li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-          </div>
 
-          {/* Valores e CTA */}
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl border bg-[#f5f1ea] text-center">
-              <p className="text-sm uppercase tracking-wide opacity-90">
-                Valor somado
-              </p>
-              <p className="text-3xl md:text-4xl font-extrabold line-through decoration-2">
-                R$ 275
-              </p>
-            </div>
-            <a href="https://pay.cakto.com.br/37z4v27_589100">
-              <div className="p-6 rounded-2xl border border-gray-100 bg-[#0B6856] text-center">
-                <p className="text-sm uppercase tracking-wide text-emerald-100">
-                  Hoje
-                </p>
-                <p className="text-3xl md:text-4xl font-extrabold text-emerald-100">
-                  R$ 27,90
-                </p>
-                <p className="text-xs text-gray-100 mt-1">ou 3x de R$ 10,59</p>
-              </div>
-            </a>
-            <div className="p-6 rounded-2xl border border-red-300 bg-red-100 text-center">
-              <p className="text-sm uppercase tracking-wide text-red-600">
-                Após o prazo
-              </p>
-              <p className="text-xl font-extrabold text-red-600">
-                R$ 97 (previsto)
-              </p>
-              <p className="text-xs text-gray-600 mt-1">
-                Bônus sujeitos a encerramento
-              </p>
-            </div>
-          </div>
+              <h3 className="font-bold text-lg text-[#0B6856] mt-4">
+                + Todos os Bônus Exclusivos:
+              </h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>🎁 Guia de Orações de Uma Mãe Atípica</li>
+                <li>🎁 Cartões de Fé para Dias Tempestuosos</li>
+                <li>🎁 Diário da Gratidão Atípica</li>
+              </ul>
 
-          {/* CTA */}
-          <div className="text-center space-y-4">
-            <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-600">
-              <div className="flex items-center gap-2">⚡ Acesso imediato</div>
-              <div className="flex items-center gap-2">🔒 Pagamento seguro</div>
-              <div className="flex items-center gap-2">
-                🛡️ 7 dias de garantia
-              </div>
-              <div className="flex items-center gap-2">💳 Cartão • Pix</div>
+              <h3 className="font-bold text-lg text-[#0B6856] mt-4">E mais:</h3>
+              <ul className="space-y-1 text-gray-700 list-disc list-inside">
+                <li>Ebook “10 Orações Rápidas para Mães Atípicas”</li>
+                <li>Ebook “Produtividade com Fé”</li>
+                <li>Ebook “30 Versículos de Força Para Mães Atípicas”</li>
+                <li>Ebook “Rotina Espiritual em 5 Minutos”</li>
+                <li>Ebook “Como Orar em Meio ao Caos”</li>
+                <li>Meditações Guiadas de 5 Minutos</li>
+                <li>Cartões de Oração Imprimíveis</li>
+                <li>Checklist de Sinais de Exaustão Emocional</li>
+                <li>Mini Guia: Como Explicar o Autismo</li>
+              </ul>
+
+              <h3 className="font-bold text-lg text-[#0B6856] mt-4">
+                Diferenciais do Plano Completo:
+              </h3>
+              <ul className="space-y-1 text-gray-700 list-none">
+                <li>✔️ Acesso vitalício (não expira)</li>
+                <li>✔️ Atualizações futuras inclusas</li>
+                <li>✔️ Certificado simbólico de conclusão</li>
+                <li>✔️ Acesso multi-dispositivo</li>
+                <li>✔️ Modo áudio (narrado)</li>
+                <li>✔️ Pacote imprimível premium</li>
+                <li>✔️ Calendário espiritual de 30 dias</li>
+              </ul>
             </div>
+            <p className="text-xl  mt-10 text-center">
+              De <s>R$390,00</s> por apenas
+            </p>
+            <p className="text-5xl font-extrabold text-[#0B6856] my-4 text-center">
+              R$27,90
+            </p>
             <a
               href="https://pay.cakto.com.br/37z4v27_589100"
-              className="inline-flex items-center justify-center w-full max-w-full px-4 py-4 text-xl font-bold text-white bg-[#0B6856] rounded-full shadow-lgbg-[#0B6856] transition-colors flex-wrap text-center"
+              className="mt-6 bg-[#0B6856] hover:bg-[#095445] text-white text-center py-3 rounded-lg font-bold transition"
             >
-              QUERO TUDO ISSO POR R$27,90 →
+              SIM! QUERO ESSA SUPER OFERTA!
             </a>
-            <p className="text-xs text-gray-600 mt-2 pb-5">
-              Leva menos de 2 minutos para começar
-            </p>
+            <h2 className="mt-3 text-md font-bold text-[#0B6856] text-center">
+              APROVEITE AGORA:{" "}
+              <span className="font-normal">
+                Você <u>NÃO vai encontrar</u> esse preço depois.
+              </span>
+            </h2>
           </div>
         </div>
       </section>
